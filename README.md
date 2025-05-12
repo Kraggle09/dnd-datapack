@@ -8,7 +8,7 @@
 - Add to your world using [this guide](https://minecraft.wiki/w/Tutorial:Installing_a_data_pack)
 
 ## How to use:
-- Check out the [wiki](https://github.com/Kraggle09/dnd-datapack/wiki) (incomplete) for how to use.
+- Check out the [wiki](https://github.com/Kraggle09/dnd-datapack/wiki) for how to use.
 
 ## How to update:
 - Download the verion you want to update to from the [releases page](https://github.com/Kraggle09/dnd-datapack/releases)
