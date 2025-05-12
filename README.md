@@ -26,3 +26,9 @@ The latest version of Java edition. (although it may work for older versions)
 
 **Can you port this to Bedrock/Older version of Java?**  
 Ports are not planned at this time.
+
+**Can I use this in a YouTube video?**  
+Absolutely, just please provide a link in the description to this page.  
+
+**What edition of DnD is this based off of?**  
+Fifth Edition  
