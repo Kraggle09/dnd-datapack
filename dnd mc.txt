@@ -1,13 +1,9 @@
 DND = MC
 
 Speed:
-0 ft = 0
-5 ft = 0.10
-10 ft = 0.15
-20 ft = 0.20
-30 ft = 0.25
-40 ft = 0.30
-50 ft = 0.35
+25 ft = 0.83
+30 ft = 0.1
+35 ft = 0.16
 
 Health:
 10 = 7.15
@@ -16,6 +12,10 @@ Health:
 25 = 17.875
 30 = 21.45
 Ratio: MC is 71.5% of DND
+
+Size:
+1 ft = 0.3 blocks
+1 ft = .16
 
 Armor:
 Leather (11) = Leather (7)
