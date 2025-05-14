@@ -14,8 +14,9 @@ Health:
 Ratio: MC is 71.5% of DND
 
 Size:
+1 in = 0.025 blocks
 1 ft = 0.3 blocks
-1 ft = .16
+1 ft = .16 scale
 
 Armor:
 Leather (11) = Leather (7)
@@ -106,3 +107,24 @@ Speed - 0.1 (30 ft)
 Size - 0.94 (1.7 (1.5 - 1.9 blocks (4' 11" - 6' 3")))
 Damage bonus: None
 Bonus Effects: Night Vision, Resistance to fire damage
+
+
+Species beyond this point use different height source, but averages are still the same.
+
+Aasimar:
+Speed - 0.1 (30 ft)
+Size - 0.93 (1.67 (1.4 - 1.95 blocks (4' 8" - 6' 6")))
+Damage bonus: None
+Bonus Effects: Night Vision, Resistance to wither damage
+
+Orc:
+Speed - 0.1 (30 ft)
+Size - 1 (1.8 (1.675 - 1.925 blocks (5' 7" - 6' 5")))
+Damage bonus: None
+Bonus Effects: Night Vision
+
+Goliath:
+Speed - 0.1 (30 ft)
+Size - 	1.19 (2.15 (1.875 - 2.425 blocks (6' 3" - 8' 1")))
+Damage bonus: None
+Bonus Effects: Resistance to freezing damage
