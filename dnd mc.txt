@@ -4,6 +4,7 @@ Speed:
 25 ft = 0.83
 30 ft = 0.1
 35 ft = 0.16
+40 ft = 0.33
 
 Health:
 10 = 7.15
@@ -12,6 +13,85 @@ Health:
 25 = 17.875
 30 = 21.45
 Ratio: MC is 71.5% of DND
+
+Jump height:
+[Scale] - [Height]
+50%  - 0.360
+51%  - 0.3612
+52%  - 0.3624
+53%  - 0.3636
+54%  - 0.3648
+55%  - 0.366
+56%  - 0.3672
+57%  - 0.3684
+58%  - 0.3696
+59%  - 0.3708
+60%  - 0.372
+61%  - 0.3732
+62%  - 0.3744
+63%  - 0.3756
+64%  - 0.3768
+65%  - 0.378
+66%  - 0.3792
+67%  - 0.3804
+68%  - 0.3816
+69%  - 0.3828
+70%  - 0.384
+71%  - 0.3852
+72%  - 0.3864
+73%  - 0.3876
+74%  - 0.3888
+75%  - 0.390
+76%  - 0.3912
+77%  - 0.3924
+78%  - 0.3936
+79%  - 0.3948
+80%  - 0.396
+81%  - 0.3972
+82%  - 0.3984
+83%  - 0.3996
+84%  - 0.4008
+85%  - 0.402
+86%  - 0.4032
+87%  - 0.4044
+88%  - 0.4056
+89%  - 0.4068
+90%  - 0.408
+91%  - 0.4092
+92%  - 0.4104
+93%  - 0.4116
+94%  - 0.4128
+95%  - 0.414
+96%  - 0.4152
+97%  - 0.4164
+98%  - 0.4176
+99%  - 0.4188
+100% - 0.420
+101% - 0.4212
+102% - 0.4224
+103% - 0.4236
+104% - 0.4248
+105% - 0.426
+106% - 0.4272
+107% - 0.4284
+108% - 0.4296
+109% - 0.4308
+110% - 0.432
+111% - 0.4332
+112% - 0.4344
+113% - 0.4356
+114% - 0.4368
+115% - 0.438
+116% - 0.4392
+117% - 0.4404
+118% - 0.4416
+119% - 0.4428
+120% - 0.444
+121% - 0.4452
+122% - 0.4464
+123% - 0.4476
+124% - 0.4488
+125% - 0.450
 
 Size:
 1 in = 0.025 blocks
@@ -38,73 +118,73 @@ Bonus Effects: None
 
 Dwarf (Hill):
 Speed - 0.083 (25 ft)
-Size - 0.69 (1.245 (1.17 - 1.32 blocks (3' 10" - 4' 4")))
+Size - 0.68 (1.225 (1.15 - 1.3 blocks (3' 10" - 4' 4")))
 Damage bonus: Axes
 Bonus Effects: Night Vision, Poison cleared every 5 seconds
 
 Dwarf (Mountain):
 Speed - 0.083 (25 ft)
-Size - 0.74 (1.345 (1.27 - 1.42 blocks (4' 2" - 4' 8")))
+Size - 0.73 (1.325 (1.25 - 1.4 blocks (4' 2" - 4' 8")))
 Damage bonus: Axes
 Bonus Effects: Night Vision, Poison cleared every 5 seconds
 
 Elf (High):
 Speed - 0.1 (30 ft)
-Size - 0.91 (1.65 (1.42 - 1.88 blocks (4' 8" - 6' 2")))
+Size - 0.90 (1.625 (1.4 - 1.85 blocks (4' 8" - 6' 2")))
 Damage bonus: Swords
 Bonus Effects: Night Vision, goes to sleep faster
 
 Elf (Wood):
 Speed - 0.116 (35 ft)
-Size - 0.91 (1.65 (1.42 - 1.88 blocks (4' 8" - 6' 2")))
+Size - 0.90 (1.625 (1.4 - 1.85 blocks (4' 8" - 6' 2")))
 Damage bonus: Swords
-Bonus Effects: Night Vision
+Bonus Effects: Night Vision, goes to sleep faster
 
 Elf (Drow):
 Speed - 0.1 (30 ft)
-Size - 0.84 (1.525 (1.40 - 1.65 blocks (4' 7" - 5' 5")))
+Size - 0.83 (1.5 (1.375 - 1.625 blocks (4' 7" - 5' 5")))
 Damage bonus: Swords
-Bonus Effects: Night Vision, occasional spouts of darkness when exposed to daylight
+Bonus Effects: Night Vision, goes to sleep faster, occasional spouts of darkness when exposed to daylight
 
 Halfling (Lightfoot):
 Speed - 0.083 (25 ft)
-Size - 0.51 (0.92 (0.84 - 1 blocks (2' 9" - 3' 3")))
+Size - 0.50 (0.8975 (0.82 - 0.975 blocks (2' 9" - 3' 3")))
 Damage bonus: None
 Bonus Effects: Small luck bonus
 
 Halfling (Stout):
 Speed - 0.083 (25 ft)
-Size - 0.51 (0.92 (0.84 - 1 blocks (2' 9" - 3' 3")))
+Size - 0.50 (0.8975 (0.82 - 0.975 blocks (2' 9" - 3' 3")))
 Damage bonus: None
 Bonus Effects: Small luck bonus, Poison cleared every 5 seconds
 
 Dragonborn:
 Speed - 0.1 (30 ft)
-Size - 1.05 (1.905 (1.73 - 2.08 blocks (5' 8" - 6' 10")))
+Size - 1.04 (1.875 (1.7 - 2.05 blocks (5' 8" - 6' 10")))
 Damage bonus: None
 Bonus Effects: Breath Weapon and Resistance to a chosen type
 
 Gnome:
 Speed - 0.083 (25 ft)
-Size - 0.56 (1.02 (0.94 - 1.1 blocks (3' 1" - 3' 7")))
+Size - 0.55 (1 (0.925 - 1.075 blocks (3' 1" - 3' 7")))
 Damage bonus: None
 Bonus Effects: Night Vision
 
 Half-elf:
 Speed - 0.1 (30 ft)
-Size - 0.94 (1.7 (1.5 - 1.9 blocks (4' 11" - 6' 3")))
+Size - 0.93 (1.675 (1.475 - 1.875 blocks (4' 11" - 6' 3")))
 Damage bonus: None
 Bonus Effects: Night Vision, goes to sleep faster
 
 Half-orc:
 Speed - 0.1 (30 ft)
-Size - 0.97 (1.75 (1.5 - 2 blocks (5' - 6' 6")))
+Size - 0.96 (1.725 (1.5 - 1.95 blocks (5' - 6' 6")))
 Damage bonus: None
 Bonus Effects: Night Vision, Temporary strength when at low health
 
 Teifling:
 Speed - 0.1 (30 ft)
-Size - 0.94 (1.7 (1.5 - 1.9 blocks (4' 11" - 6' 3")))
+Size - 0.93 (1.675 (1.475 - 1.875 blocks (4' 11" - 6' 3")))
 Damage bonus: None
 Bonus Effects: Night Vision, Resistance to fire damage
 
