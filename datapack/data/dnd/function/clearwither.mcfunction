@@ -1,2 +1,2 @@
-effect clear @a[tag=antiPoison] minecraft:wither
+effect clear @a[tag=antiWither] minecraft:wither
 schedule function dnd:clearwither 100t
