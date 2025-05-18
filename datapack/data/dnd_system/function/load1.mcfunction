@@ -1,2 +1,2 @@
 title @a[tag=!chosenSpecies] title ["Choose a Species"]
-title @a[tag=!chosenSpecies] subtitle ["/function dnd:[species]"]
+title @a[tag=!chosenSpecies] subtitle ["/function species:[species]"]
