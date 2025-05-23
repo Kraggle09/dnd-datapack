@@ -138,6 +138,10 @@ Size - 0.68 (1.225 (1.15 - 1.3 blocks (3' 10" - 4' 4")))
 Mountain:
 Size - 0.73 (1.325 (1.25 - 1.4 blocks (4' 2" - 4' 8")))
 
+Duergar:
+Size - 0.66 (1.2 (1.125 - 1.275 blocks (3' 9" - 4' 3")))
+Bonus Effects: Occasional spouts of darkness when exposed to daylight
+
 
 Halfling:
 Speed - 0.083 (25 ft)
@@ -245,12 +249,6 @@ Damage bonus: None
 Bonus Effects: None
 
 # Changeling
-
-Duergar:
-Speed - 0.083 (25 ft)
-Size - 0.66 (1.2 (1.125 - 1.275 blocks (3' 9" - 4' 3")))
-Damage bonus: Axes
-Bonus Effects: Night Vision, Poison Resistance
 
 Eladrin:
 Speed - 0.1 (30 ft)
