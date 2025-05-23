@@ -19,9 +19,24 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_sword"}},tag=swordBonus] 
 execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[tag=swordBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
 
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:6f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:5f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:4f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:3f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:2f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
-# execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:1f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 20 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:1.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:2.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:3.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:4.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:5.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:6.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
+
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:7.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:8.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:9.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:10.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:11.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:12.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:13.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:14.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:15.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:16.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:17.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:18.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:19.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:20.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
