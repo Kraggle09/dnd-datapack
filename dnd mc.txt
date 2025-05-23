@@ -125,6 +125,10 @@ Speed - 0.1 (30 ft)
 Size - 0.83 (1.5 (1.375 - 1.625 blocks (4' 7" - 5' 5")))
 Bonus Effects: Occasional spouts of darkness when exposed to daylight
 
+Eladrin:
+Speed - 0.1 (30 ft)
+Size - 0.91 (1.65 (1.425 - 1.875 blocks (4' 9" - 6' 3")))
+
 
 Dwarf:
 Speed - 0.083 (25 ft)
@@ -249,12 +253,6 @@ Damage bonus: None
 Bonus Effects: None
 
 # Changeling
-
-Eladrin:
-Speed - 0.1 (30 ft)
-Size - 0.91 (1.65 (1.425 - 1.875 blocks (4' 9" - 6' 3")))
-Damage bonus: Swords
-Bonus Effects: Night Vision, goes to sleep faster
 
 Fairy:
 Speed - 0.1 (30 ft)
