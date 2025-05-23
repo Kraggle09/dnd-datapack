@@ -295,7 +295,7 @@ Bonus Effects: None
 
 Githzerai:
 Speed - 0.1 (30 ft)
-Size - 5'2" - 6'8"
+Size - 0.98 (1.775 (1.55 - 2 (5'2" - 6'8")))
 Damage bonus: None
 Bonus Effects: None
 
