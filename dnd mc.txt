@@ -154,6 +154,11 @@ Speed - 0.1 (30 ft)
 Size - 0.86 (1.55 (1.425 - 1.675 (4' 9" - 5' 7")))
 Bonus Effects: Boosted swimming speed, water breathing
 
+Shadar-Kai:
+Speed - 0.1 (30 ft)
+Size - 0.91 (1.65 (1.425 - 1.875 (4'9" - 6'3")))
+Bonus Effects: Resistance to wither damage, occasional free ender pearls
+
 
 Dwarf:
 Speed - 0.083 (25 ft)
@@ -351,13 +356,6 @@ Speed - 0.16 (35 ft)
 Size - 0.9 (1.625 (1.4 - 1.85 (4' 8" - 6' 2")))
 Damage bonus: None
 Bonus Effects: Higher jump height
-
-Shadar-Kai:
-Enherits elf traits
-Speed - 0.1 (30 ft)
-Size - 4'9" - 6'3"
-Damage bonus: None
-Bonus Effects: Resistance to wither damage, occasional free ender pearls
 
 # Shifter
 

@@ -1,0 +1,1 @@
+give @a[tag=freePearls] ender_pearl[lore=[[{"text":"Species bonus"}]]]

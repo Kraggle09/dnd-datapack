@@ -28,5 +28,8 @@ execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
 
+# Misc
+execute as @s run clear @s ender_pearl[lore=[[{"text":"Species bonus"}]]]
+
 # chosenSpecies
 execute as @s run tag @s remove chosenSpecies
