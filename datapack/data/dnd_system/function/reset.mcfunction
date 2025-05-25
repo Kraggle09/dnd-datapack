@@ -13,6 +13,8 @@ execute as @s run tag @s remove fireResistance
 execute as @s run tag @s remove antiWither
 execute as @s run tag @s remove antiFreeze
 execute as @s run tag @s remove extraDamageWhenLowHealth
+execute as @s run tag @s remove swimBoost
+execute as @s run tag @s remove longerBreath
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
