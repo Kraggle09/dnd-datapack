@@ -4,6 +4,7 @@ execute as @s run attribute @s minecraft:step_height base reset
 execute as @s run attribute @s minecraft:jump_strength base reset
 execute as @s run attribute @s minecraft:movement_speed base reset
 execute as @s run attribute @s minecraft:luck base reset
+execute as @s run attribute @s safe_fall_distance base reset
 
 # Tags
 execute as @s run tag @s remove nightVision
