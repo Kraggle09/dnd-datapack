@@ -23,5 +23,9 @@ execute as @s run tag @s remove axeBonus
 execute as @s[tag=swordBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
 execute as @s run tag @s remove swordBonus
 
+# Permanent Effects
+execute as @s[tag=nightVision] run effect clear @s night_vision
+execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
+
 # chosenSpecies
 execute as @s run tag @s remove chosenSpecies
