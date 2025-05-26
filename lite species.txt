@@ -1,0 +1,20 @@
+Aasimar
+Centaur
+Dark elf (once light weakness is implemented)
+Dragonborn (once types are implemented)
+Fairy
+Firbolg
+Gnome
+Goliath
+Half Orc
+Harengon
+Stout Halfling
+Lizardfolk
+Mountain Dwarf
+Sea elf
+Shadar-Kai
+Tiefling
+Tortle (once natural armor is implemented)
+Triton
+Wood elf
+Yuan-Ti
