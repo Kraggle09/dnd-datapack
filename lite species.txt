@@ -8,11 +8,11 @@ Gnome
 Goliath
 Half Orc
 Harengon
-Stout Halfling
 Lizardfolk
 Mountain Dwarf
 Sea elf
 Shadar-Kai
+Stout Halfling
 Tiefling
 Tortle (once natural armor is implemented)
 Triton
