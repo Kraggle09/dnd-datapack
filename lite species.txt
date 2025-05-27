@@ -4,12 +4,14 @@ Dark elf (once light weakness is implemented)
 Dragonborn (once types are implemented)
 Fairy
 Firbolg
+Fire Genasi
 Gnome
 Goliath
 Half Orc
 Harengon
 Lizardfolk
 Mountain Dwarf
+Satyr
 Sea elf
 Shadar-Kai
 Stout Halfling
