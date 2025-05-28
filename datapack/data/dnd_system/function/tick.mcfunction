@@ -1,11 +1,8 @@
 effect give @a[tag=nightVision] minecraft:night_vision infinite 0 true
-effect clear @a[tag=!nightVision] minecraft:night_vision
 
 effect give @a[tag=swimBoost] minecraft:dolphins_grace infinite 0 true
-effect clear @a[tag=!swimBoost] minecraft:dolphins_grace
 
 effect give @a[tag=waterBreathing] minecraft:water_breathing infinite 0 true
-effect clear @a[tag=!waterBreathing] minecraft:water_breathing
 
 effect clear @a[tag=poisonimmunity] minecraft:poison
 

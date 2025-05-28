@@ -11,6 +11,7 @@ execute as @s run attribute @s submerged_mining_speed base reset
 execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
+execute as @s[tag=longerBreath] run effect clear @s water_breathing
 
 # Tags
 execute as @s run tag @s remove nightVision
