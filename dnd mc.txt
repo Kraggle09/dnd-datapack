@@ -341,8 +341,8 @@ Bonus Effects: Higher jump height
 Hobgoblin:
 Speed - 0.1 (30 ft)
 Size - 0.94 (1.7 (1.425 - 1.975 blocks (4' 9" - 6' 7")))
-Damage bonus: Night Vision
-Bonus Effects: None
+Damage bonus: None
+Bonus Effects: Night Vision
 
 Kenku:
 Speed - 0.1 (30 ft)
