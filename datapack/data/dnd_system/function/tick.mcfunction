@@ -6,7 +6,7 @@ effect give @a[tag=waterBreathing] minecraft:water_breathing infinite 0 true
 
 effect clear @a[tag=poisonimmunity] minecraft:poison
 
-# execute as @a[tag=lightWeakness] at @s if block ~ ~-1 ~ minecraft:grass_block[light=14] run say I am in direct sunlight!
+execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
 
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value

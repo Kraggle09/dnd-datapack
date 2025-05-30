@@ -27,6 +27,7 @@ execute as @s run tag @s remove freePearls
 execute as @s run tag @s remove naturalArmor
 execute as @s run tag @s remove poisonimmunity
 execute as @s run tag @s remove waterBreathing
+execute as @s run tag @s remove fasterSleep
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
