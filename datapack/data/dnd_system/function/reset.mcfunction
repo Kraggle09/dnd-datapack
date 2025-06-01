@@ -28,6 +28,8 @@ execute as @s run tag @s remove naturalArmor
 execute as @s run tag @s remove poisonimmunity
 execute as @s run tag @s remove waterBreathing
 execute as @s run tag @s remove fasterSleep
+execute as @s run tag @s remove jumpHeightAdded
+execute as @s run tag @s remove shortJumpHeight
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
