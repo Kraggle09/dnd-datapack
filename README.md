@@ -37,3 +37,5 @@ Absolutely, just please provide a link in the description to this page.
 
 **What edition of DnD is this based off of?**  
 Fifth Edition  
+
+*DND Datapack is an independent project and is not affiliated with, endorsed, or sponsored by Wizards of the Coast.*
