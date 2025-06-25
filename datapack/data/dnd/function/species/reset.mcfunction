@@ -1,1 +1,1 @@
-function dnd_system:reset
+function dnd:system/reset

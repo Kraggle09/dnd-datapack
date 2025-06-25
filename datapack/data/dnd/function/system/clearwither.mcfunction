@@ -1,2 +1,2 @@
 effect clear @a[tag=antiWither] minecraft:wither
-schedule function dnd_system:clearwither 100t
+schedule function dnd:system/clearwither 100t

@@ -1,5 +1,5 @@
-function dnd_system:reset
-function dnd_system:elf
+function dnd:system/reset
+function dnd:system/elf
 attribute @s minecraft:movement_speed base set 0.1
 attribute @s minecraft:scale base set 0.90
 attribute @s minecraft:jump_strength base set 0.408

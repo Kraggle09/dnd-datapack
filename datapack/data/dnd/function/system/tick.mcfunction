@@ -8,8 +8,8 @@ effect clear @a[tag=poisonimmunity] minecraft:poison
 
 execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
 
-execute if score global jumpCheat matches 1 run function dnd_system:jumpcheatactivate
-execute if score global jumpCheat matches 0 as @a[tag=jumpHeightAdded] run function species:reset
+execute if score global jumpCheat matches 1 run function dnd:system/jumpcheatactivate
+execute if score global jumpCheat matches 0 as @a[tag=jumpHeightAdded] run function dnd:species/reset
 
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
