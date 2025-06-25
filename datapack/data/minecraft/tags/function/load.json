@@ -1,5 +1,5 @@
 {
     "values": [
-        "dnd_system:load"
+        "dnd:system/load"
     ]
 }

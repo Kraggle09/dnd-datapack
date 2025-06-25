@@ -1,5 +1,5 @@
 {
     "values": [
-        "dnd_system:tick"
+        "dnd:system/tick"
     ]
 }
