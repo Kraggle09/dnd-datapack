@@ -1,7 +1,7 @@
-execute as @s run function dnd_system:reset
-execute as @s run function dnd_system:dwarf
-execute as @s run attribute @s minecraft:scale base set 0.66
-execute as @s run attribute @s minecraft:jump_strength base set 0.3792
-execute as @s run attribute @s minecraft:step_height base set 0.5677
-execute as @s run tag @s add lightWeakness
-execute as @s run tag @s add chosenSpecies
+function dnd_system:reset
+function dnd_system:dwarf
+attribute @s minecraft:scale base set 0.66
+attribute @s minecraft:jump_strength base set 0.3792
+attribute @s minecraft:step_height base set 0.5677
+tag @s add lightWeakness
+tag @s add chosenSpecies

@@ -1,3 +1,3 @@
-execute as @s run tag @s add nightVision
-execute as @s run tag @s add swordBonus
-execute as @s run tag @s add fasterSleep
+tag @s add nightVision
+tag @s add swordBonus
+tag @s add fasterSleep
