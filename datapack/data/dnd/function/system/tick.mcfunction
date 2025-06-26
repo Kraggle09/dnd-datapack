@@ -11,6 +11,9 @@ execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
 execute if score global jumpCheat matches 1 run function dnd:system/jumpcheatactivate
 execute if score global jumpCheat matches 0 as @a[tag=jumpHeightAdded] run function dnd:species/reset
 
+execute if score global stepCheat matches 1 run function dnd:system/stepcheatactivate
+execute if score global stepCheat matches 0 as @a[tag=stepHeightAdded] run function dnd:species/reset
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
