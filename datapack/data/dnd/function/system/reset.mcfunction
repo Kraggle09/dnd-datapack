@@ -31,6 +31,8 @@ tag @s remove waterBreathing
 tag @s remove fasterSleep
 tag @s remove jumpHeightAdded
 tag @s remove shortJumpHeight
+tag @s remove stepHeightAdded
+tag @s remove shortStepHeight
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
