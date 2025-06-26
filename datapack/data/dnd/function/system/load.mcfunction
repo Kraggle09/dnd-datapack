@@ -6,5 +6,5 @@ schedule function dnd:system/addwaterbreathing 100t
 schedule function dnd:system/freepearl 24000t
 scoreboard objectives add jumpCheat dummy
 scoreboard objectives add stepCheat dummy
-scoreboard players add global jumpCheat 0
-scoreboard players add global stepCheat 0
+scoreboard players set global jumpCheat 0
+scoreboard players set global stepCheat 0
