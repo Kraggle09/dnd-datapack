@@ -6,7 +6,6 @@ attribute @s minecraft:movement_speed base reset
 attribute @s minecraft:luck base reset
 attribute @s safe_fall_distance base reset
 attribute @s submerged_mining_speed base reset
-attribute @s minecraft:step_height base reset
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
