@@ -13,15 +13,15 @@
 - Check out the [wiki](https://github.com/Kraggle09/dnd-datapack/wiki) for how to use.
 
 ## How to update:
-- Download the verion you want to update to from the [releases page](https://github.com/Kraggle09/dnd-datapack/releases)
+- Download the version you want to update to from the [releases page](https://github.com/Kraggle09/dnd-datapack/releases)
 - Unzip the pack
 - Add to your world using [this guide](https://minecraft.wiki/w/Tutorial:Installing_a_data_pack)
-- Run `/function dnd:reset` (this will remove your species)
+- Run `/function dnd:species/reset` (this will remove your species)
 - Reapply your species using the associated command.
 
 ## FAQ
 **Can you add [species]?**  
-This pack is still in beta, so it doesn't have every species yet, but I'm adding new ones every update. Check out the [project roadmap](https://github.com/users/Kraggle09/projects/2) to see if your prefered species is planned yet. If it isn't, feel free to open a feature request for it.
+This pack is still in beta, so it doesn't have every species yet, but I'm adding new ones every update. Check out the [project roadmap](https://github.com/users/Kraggle09/projects/2) to see if your preferred species is planned yet. If it isn't, feel free to open a feature request for it.
 
 **What's the difference between the Lite and Full versions?**  
 The Lite version has all the species that actually give unique benefits. The Full version has all the species, including the ones with no unique benefits. Both versions will always be free, forever.
