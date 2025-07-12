@@ -11,7 +11,6 @@ attribute @s submerged_mining_speed base reset
 execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
-execute as @s[tag=longerBreath] run effect clear @s water_breathing
 
 # Tags
 tag @s remove nightVision
@@ -22,7 +21,6 @@ tag @s remove antiWither
 tag @s remove antiFreeze
 tag @s remove extraDamageWhenLowHealth
 tag @s remove swimBoost
-tag @s remove longerBreath
 tag @s remove freePearls
 tag @s remove naturalArmor
 tag @s remove poisonimmunity
