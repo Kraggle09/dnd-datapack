@@ -6,5 +6,4 @@ attribute @s minecraft:step_height base set 0.6
 attribute @s submerged_mining_speed base set 1
 attribute @s oxygen_bonus base set 3.0
 tag @s add swimBoost
-# tag @s add longerBreath
 tag @s add chosenSpecies
