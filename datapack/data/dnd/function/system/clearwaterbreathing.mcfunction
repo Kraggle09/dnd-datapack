@@ -1,1 +1,0 @@
-effect clear @a[tag=longerBreath] minecraft:water_breathing
