@@ -7,6 +7,7 @@ attribute @s minecraft:luck base reset
 attribute @s safe_fall_distance base reset
 attribute @s submerged_mining_speed base reset
 attribute @s oxygen_bonus base reset
+attribute @s minecraft:armor base reset
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
@@ -40,6 +41,7 @@ tag @s remove swordBonus
 
 # Misc
 clear @s ender_pearl[lore=[[{"text":"Species bonus"}]]]
+clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
 
 # chosenSpecies
 tag @s remove chosenSpecies

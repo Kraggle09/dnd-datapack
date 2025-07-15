@@ -1,0 +1,3 @@
+item replace entity @s armor.chest with minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:equippable={slot:"chest"},minecraft:item_name="Natural Armor"]
+item replace entity @s armor.legs with minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:equippable={slot:"legs"},minecraft:item_name="Natural Armor"]
+attribute @s minecraft:armor base set 9
