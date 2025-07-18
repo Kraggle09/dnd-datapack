@@ -6,5 +6,3 @@ attribute @s minecraft:jump_strength base set 0.3996
 attribute @s minecraft:step_height base set 0.6
 tag @s add lightWeakness
 tag @s add chosenSpecies
-
-#Add light weakness eventually
