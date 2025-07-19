@@ -1,6 +1,6 @@
 Aasimar
 Centaur
-Dark elf (once light weakness is implemented)
+Dark elf
 Dragonborn (once types are implemented)
 Fairy
 Firbolg
@@ -16,7 +16,7 @@ Sea elf
 Shadar-Kai
 Stout Halfling
 Tiefling
-Tortle (once natural armor is implemented)
+Tortle
 Triton
 Wood elf
 Yuan-Ti
