@@ -21,7 +21,7 @@
 
 ## FAQ
 **Can you add [species]?**  
-I have added most of the species I have planned, but I'm open to suggestions. Check out the [project roadmap](https://github.com/users/Kraggle09/projects/2) to see if your preferred species is planned yet. If it isn't, feel free to open a feature request for it, and I'll try to add it.
+I have added most of the species I have planned, but I'm open to suggestions. Check out the [project roadmap](https://github.com/users/Kraggle09/projects/4) to see if your preferred species is planned yet. If it isn't, feel free to open a feature request for it, and I'll try to add it.
 
 **What's the difference between the Lite and Full versions?**  
 The Lite version has all the species that actually give unique benefits. The Full version has all the species, including the ones with no unique benefits. Both versions will always be free, forever.
