@@ -40,7 +40,7 @@ execute as @s[tag=swordBonus] run attribute @s minecraft:attack_damage modifier 
 tag @s remove swordBonus
 
 # Misc
-clear @s ender_pearl[lore=[[{"text":"Species bonus"}]]]
+clear @s ender_pearl[lore=["Species bonus"]]
 clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
 
 # chosenSpecies
