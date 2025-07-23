@@ -12,6 +12,14 @@ attribute @s minecraft:max_health base reset
 attribute @s minecraft:attack_damage base reset
 attribute @s minecraft:attack_speed base reset
 
+# Attribute Modifiers
+attribute @s armor modifier remove dnd:beasthide
+attribute @s max_health modifier remove dnd:beasthide
+attribute @s minecraft:attack_damage modifier remove dnd:longtooth
+attribute @s minecraft:attack_speed modifier remove dnd:longtooth
+attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
+attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
+
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
