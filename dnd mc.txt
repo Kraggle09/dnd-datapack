@@ -283,8 +283,8 @@ Bonus Effects: Night Vision, Shifting
 
 Shifter subspecies:
 (These traits only appear during shifting)
-Beasthide: Higher damage, higher defense
-Longtooth: Much higher damage
+Beasthide: Higher defense, more hearts
+Longtooth: Much higher damage, slightly faster attack speed
 Swiftstride: Faster speed, higher jump height
 Wildhunt: Glowing effect on all nearby mobs (singleplayer only), particle effect on all nearby mobs (multiplayer only)
 
