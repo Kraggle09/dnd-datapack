@@ -43,6 +43,8 @@ tag @s remove jumpHeightAdded
 tag @s remove shortJumpHeight
 tag @s remove stepHeightAdded
 tag @s remove shortStepHeight
+tag @s remove shifted
+scoreboard players reset @s timeShifted
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
