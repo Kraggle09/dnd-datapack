@@ -6,5 +6,6 @@ schedule function dnd:system/freepearl 24000t
 schedule function dnd:system/checkforskyaccess 5s
 scoreboard objectives add jumpCheat dummy
 scoreboard objectives add stepCheat dummy
+scoreboard objectives add timeShifted dummy
 scoreboard players set global jumpCheat 0
 scoreboard players set global stepCheat 0
