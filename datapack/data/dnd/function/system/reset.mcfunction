@@ -44,7 +44,10 @@ tag @s remove shortJumpHeight
 tag @s remove stepHeightAdded
 tag @s remove shortStepHeight
 tag @s remove shifted
-scoreboard players reset @s timeShifted
+tag @s remove beasthide
+tag @s remove longtooth
+tag @s remove swiftstride
+tag @s remove wildhunt
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
@@ -55,6 +58,7 @@ tag @s remove swordBonus
 # Misc
 clear @s ender_pearl[lore=["Species bonus"]]
 clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
+scoreboard players reset @s timeShifted
 
 # chosenSpecies
 tag @s remove chosenSpecies
