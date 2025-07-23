@@ -1,2 +1,2 @@
-attribute @s minecraft:movement_speed base set 0.33
-attribute @s minecraft:jump_strength base set 0.48
+attribute @s minecraft:movement_speed modifier add dnd:swiftstride 0.33 add_value
+attribute @s minecraft:jump_strength modifier add dnd:swiftstride 0.48 add_value

@@ -1,2 +1,2 @@
-attribute @s minecraft:attack_damage base set 4
-attribute @s minecraft:attack_speed base set 8.0
+attribute @s minecraft:attack_damage modifier add dnd:longtooth 4.0 add_value
+attribute @s minecraft:attack_speed modifier add dnd:longtooth 8.0 add_value

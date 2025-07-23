@@ -1,3 +1,3 @@
-attribute @s armor base set 10
-attribute @s max_health base set 28
+attribute @s armor modifier add dnd:beasthide 10.0 add_value
+attribute @s max_health modifier add dnd:beasthide 28 add_value
 effect give @s minecraft:instant_health 1 0
