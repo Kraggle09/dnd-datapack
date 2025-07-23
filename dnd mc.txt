@@ -275,7 +275,18 @@ Size - 0.9 (1.625 (1.4 - 1.85 (4' 8" - 6' 2")))
 Damage bonus: None
 Bonus Effects: Higher jump height
 
-# Shifter
+Shifter:
+Speed - 0.1 (30 ft)
+Size - 0.87 (1.575 (1.45 - 1.7 (4' 10" - 5' 8")))
+Damage bonus: None
+Bonus Effects: Night Vision, Shifting
+
+Shifter subspecies:
+(These traits only appear during shifting)
+Beathide: Higher damage, higher defense
+Longtooth: Much higher damage
+Swiftstride: Faster speed, higher jump height
+Wildhunt: Glowing effect on all nearby mobs (singleplayer only), particle effect on all nearby mobs (multiplayer only)
 
 Tabaxi:
 Speed - 0.1 (30 ft)
