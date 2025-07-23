@@ -8,6 +8,9 @@ attribute @s safe_fall_distance base reset
 attribute @s submerged_mining_speed base reset
 attribute @s oxygen_bonus base reset
 attribute @s minecraft:armor base reset
+attribute @s minecraft:max_health base reset
+attribute @s minecraft:attack_damage base reset
+attribute @s minecraft:attack_speed base reset
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
