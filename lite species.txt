@@ -1,4 +1,5 @@
 Aasimar
+Beasthide Shifter
 Centaur
 Dark elf
 Dragonborn (once types are implemented)
@@ -10,11 +11,13 @@ Goliath
 Half Orc
 Harengon
 Lizardfolk
+Longtooth Shifter
 Mountain Dwarf
 Satyr
 Sea elf
 Shadar-Kai
 Stout Halfling
+Swiftstride Shifter
 Tiefling
 Tortle
 Triton

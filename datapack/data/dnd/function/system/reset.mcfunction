@@ -8,6 +8,17 @@ attribute @s safe_fall_distance base reset
 attribute @s submerged_mining_speed base reset
 attribute @s oxygen_bonus base reset
 attribute @s minecraft:armor base reset
+attribute @s minecraft:max_health base reset
+attribute @s minecraft:attack_damage base reset
+attribute @s minecraft:attack_speed base reset
+
+# Attribute Modifiers
+attribute @s armor modifier remove dnd:beasthide
+attribute @s max_health modifier remove dnd:beasthide
+attribute @s minecraft:attack_damage modifier remove dnd:longtooth
+attribute @s minecraft:attack_speed modifier remove dnd:longtooth
+attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
+attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
@@ -32,6 +43,11 @@ tag @s remove jumpHeightAdded
 tag @s remove shortJumpHeight
 tag @s remove stepHeightAdded
 tag @s remove shortStepHeight
+tag @s remove shifted
+tag @s remove beasthide
+tag @s remove longtooth
+tag @s remove swiftstride
+tag @s remove wildhunt
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
@@ -42,6 +58,7 @@ tag @s remove swordBonus
 # Misc
 clear @s ender_pearl[lore=["Species bonus"]]
 clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
+scoreboard players reset @s timeShifted
 
 # chosenSpecies
 tag @s remove chosenSpecies

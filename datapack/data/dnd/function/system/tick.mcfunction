@@ -53,3 +53,6 @@ execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:17.0f
 execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:18.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
 execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:19.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
 execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:20.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+
+execute as @a[tag=shifted] run scoreboard players add @s timeShifted 1
+execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd:system/unshift
