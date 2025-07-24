@@ -1,3 +1,4 @@
+say Unshifting...
 tag @s remove shifted
 attribute @s armor modifier remove dnd:beasthide
 attribute @s max_health modifier remove dnd:beasthide
