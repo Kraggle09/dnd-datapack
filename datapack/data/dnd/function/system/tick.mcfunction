@@ -16,6 +16,10 @@ execute if score global stepCheat matches 0 as @a[tag=stepHeightAdded] run funct
 
 execute as @a[tag=naturalArmor] run function dnd:system/applynaturalarmor
 
+execute store result score #time time run time query daytime
+
+execute if score #time time matches 23500 run function dnd:system/sunrise
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
 execute as @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
