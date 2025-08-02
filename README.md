@@ -1,5 +1,7 @@
 # Minecraft DND: A datapack that brings elements of DND into Minecraft.
 
+### [Take the survey!](https://docs.google.com/forms/d/e/1FAIpQLSd1CkJqLjEqlWbUwzbJ8vKtapxPTE7FlVuAED58cmZwXEpsYA/viewform?usp=dialog)
+
 ## Features:
 - Species: Turn into several different species from DND, with new options each update! Each species has different positives and negatives, so be sure to try out all of them!
 
