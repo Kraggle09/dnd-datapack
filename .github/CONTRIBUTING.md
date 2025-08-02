@@ -4,9 +4,8 @@
 1.  Check to see if this issue has already been reported on this page
     *   If so, please don’t report it again. Instead, comment any further notes/ideas you have regarding the issue.
 2.  If it hasn’t been requested, then you can open a new issue
-3.  Tag it with either Bug or Enhancement (enhancement = feature request)
 4.  Give it a helpful title
-5.  Describe the issue, including what you need to do to reproduce it (if it’s a bug) and what you want added to the pack (if it’s a feature request)
+5.  Describe the issue, including what you need to do to reproduce it (if it’s a bug) or what you want added to the pack (if it’s a feature request)
 6.  Submit the issue, and **be patient**. Some features take time to add, and I can’t guarantee that I’ll have the knowledge necessary to implement it.
 
 ## Contributing Code
