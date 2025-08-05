@@ -1,2 +1,2 @@
-effect give @s glowing 3 0 true
+effect give @s glowing infinite 0 true
 tag @s add wildhuntglowing
