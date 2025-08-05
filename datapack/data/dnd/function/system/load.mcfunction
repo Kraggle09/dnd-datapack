@@ -8,5 +8,6 @@ scoreboard objectives add time dummy
 scoreboard objectives add stepCheat dummy
 scoreboard objectives add timeShifted dummy
 scoreboard objectives add shiftsToday dummy
+scoreboard objectives add PlayerCounter dummy
 scoreboard players set global jumpCheat 0
 scoreboard players set global stepCheat 0

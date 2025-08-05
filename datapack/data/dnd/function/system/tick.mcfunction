@@ -60,3 +60,12 @@ execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:20.0f
 
 execute as @a[tag=shifted] run scoreboard players add @s timeShifted 1
 execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd:system/unshift
+
+execute store result score Online PlayerCounter if entity @a
+
+execute if score Online PlayerCounter matches 1 at @a[tag=shifted,tag=wildhunt] as @e[tag=!wildhuntglowing,distance=..50] run function dnd:system/wildhuntglowing
+execute at @a[tag=shifted,tag=wildhunt] as @e[tag=wildhuntglowing,distance=51..] run function dnd:system/wildhuntglowingremove
+execute if score Online PlayerCounter matches 2.. as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
+execute at @a[tag=!shifted,tag=wildhunt] as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
+
+execute if score Online PlayerCounter matches 2.. at @a[tag=shifted,tag=wildhunt] as @e[distance=1..50] at @s run particle minecraft:poof ~ ~1 ~ 0 1 0 0 100 force @a[tag=wildhunt,tag=shifted]
