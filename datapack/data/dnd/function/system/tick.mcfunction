@@ -60,3 +60,5 @@ execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:20.0f
 
 execute as @a[tag=shifted] run scoreboard players add @s timeShifted 1
 execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd:system/unshift
+
+execute store result score Online PlayerCounter if entity @a
