@@ -67,3 +67,5 @@ execute if score Online PlayerCounter matches 1 at @a[tag=shifted,tag=wildhunt] 
 execute at @a[tag=shifted,tag=wildhunt] as @e[tag=wildhuntglowing,distance=51..] run function dnd:system/wildhuntglowingremove
 execute if score Online PlayerCounter matches 2.. as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
 execute at @a[tag=!shifted,tag=wildhunt] as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
+
+execute if score Online PlayerCounter matches 2.. at @a[tag=shifted,tag=wildhunt] as @e[distance=1..50] at @s run particle minecraft:poof ~ ~1 ~ 0 1 0 0 100 force @a[tag=wildhunt,tag=shifted]
