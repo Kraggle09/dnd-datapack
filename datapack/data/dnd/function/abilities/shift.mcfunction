@@ -4,4 +4,4 @@ execute if score @s shiftsToday matches 2 run say You've used all your shifts fo
 execute if entity @s[tag=beasthide] unless entity @e[tag=shifted] unless score @s shiftsToday matches 2 run function dnd:system/beasthideshift
 execute if entity @s[tag=longtooth] unless entity @e[tag=shifted] unless score @s shiftsToday matches 2 run function dnd:system/longtoothshift
 execute if entity @s[tag=swiftstride] unless entity @e[tag=shifted] unless score @s shiftsToday matches 2 run function dnd:system/swiftstrideshift
-# execute if entity @s[tag=wildhunt] unless entity @e[tag=shifted] unless score @s shiftsToday matches 2 run function dnd:system/wildhuntshift
+execute if entity @s[tag=wildhunt] unless entity @e[tag=shifted] unless score @s shiftsToday matches 2 run function dnd:system/wildhuntshift
