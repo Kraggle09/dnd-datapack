@@ -63,4 +63,4 @@ execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd
 
 execute store result score Online PlayerCounter if entity @a
 
-execute as @a[tag=shifted,tag=wildhunt] at @s run effect give @e[distance=..10] glowing 3 0 true
+execute at @a[tag=shifted,tag=wildhunt] as @e[distance=..10] run function dnd:system/wildhuntglowing
