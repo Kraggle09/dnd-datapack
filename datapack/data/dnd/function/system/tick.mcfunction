@@ -63,6 +63,7 @@ execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd
 
 execute store result score Online PlayerCounter if entity @a
 
-execute at @a[tag=shifted,tag=wildhunt] as @e[tag=!wildhuntglowing,distance=..50] run function dnd:system/wildhuntglowing
+execute if score Online PlayerCounter matches 1 at @a[tag=shifted,tag=wildhunt] as @e[tag=!wildhuntglowing,distance=..50] run function dnd:system/wildhuntglowing
 execute at @a[tag=shifted,tag=wildhunt] as @e[tag=wildhuntglowing,distance=51..] run function dnd:system/wildhuntglowingremove
+execute if score Online PlayerCounter matches 2.. as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
 execute at @a[tag=!shifted,tag=wildhunt] as @e[tag=wildhuntglowing] run function dnd:system/wildhuntglowingremove
