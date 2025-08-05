@@ -4,9 +4,9 @@
 1.  Check to see if this issue has already been reported on this page
     *   If so, please don’t report it again. Instead, comment any further notes/ideas you have regarding the issue.
 2.  If it hasn’t been requested, then you can open a new issue
-4.  Give it a helpful title
-5.  Describe the issue, including what you need to do to reproduce it (if it’s a bug) or what you want added to the pack (if it’s a feature request)
-6.  Submit the issue, and **be patient**. Some features take time to add, and I can’t guarantee that I’ll have the knowledge necessary to implement it.
+3.  Select the correct template for your issue
+4.  Add information, following the guidelines described in the template
+5.  Submit the issue, and **be patient**. Some features take time to add, and I can’t guarantee that I’ll have the knowledge necessary to implement it.
 
 ## Contributing Code
 1.  Think about what exactly you are trying to accomplish with this contribution. Try to only add one feature per pull request. 
