@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "DND",
+  "exit_action": {
+    "label": "Back"
+  },
+  "dialogs": [
+    "dnd:species"
+  ]
+}

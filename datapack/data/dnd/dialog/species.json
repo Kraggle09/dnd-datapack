@@ -3,7 +3,11 @@
   "title": "DND | Species",
   "external_title": "Species",
   "exit_action": {
-    "label": "Back"
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
   },
   "dialogs": [
     "dnd:elf",
