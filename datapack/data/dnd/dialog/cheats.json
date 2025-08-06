@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Cheats",
+  "external_title": "Cheats",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:main"
+    }
+  },
+  "actions": [
+    {
+      "label": "Jump Height",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/jumpheight"
+      }
+    },
+    {
+      "label": "Step Height",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/stepheight"
+      }
+    }
+  ]
+}

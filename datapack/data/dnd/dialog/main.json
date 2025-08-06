@@ -5,6 +5,7 @@
     "label": "Back"
   },
   "dialogs": [
-    "dnd:species"
+    "dnd:species",
+    "dnd:cheats"
   ]
 }
