@@ -1,4 +1,4 @@
-schedule function dnd:system/load1 40t
+schedule function dnd:system/popuptitle 40t
 schedule function dnd:system/clearpoison 100t
 schedule function dnd:system/addfireresis 100t
 schedule function dnd:system/clearwither 100t
