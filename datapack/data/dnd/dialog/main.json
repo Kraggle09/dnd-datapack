@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "DND",
+  "exit_action": {
+    "label": "Back"
+  },
+  "columns": 1,
+  "dialogs": [
+    "dnd:species",
+    "dnd:cheats",
+    "dnd:links"
+  ]
+}

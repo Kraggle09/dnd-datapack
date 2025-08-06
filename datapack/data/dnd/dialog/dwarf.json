@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Dwarf",
+  "external_title": "Dwarf",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Duergar",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/duergar"
+      }
+    },
+    {
+      "label": "Hill Dwarf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/hilldwarf"
+      }
+    },
+    {
+      "label": "Mountain Dwarf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/mountaindwarf"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Halfling",
+  "external_title": "Halfling",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Lightfoot Halfling",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/lightfoothalfling"
+      }
+    },
+    {
+      "label": "Stout Halfling",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/stouthalfling"
+      }
+    }
+  ]
+}

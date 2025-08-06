@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Elf",
+  "external_title": "Elf",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Dark Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/darkelf"
+      }
+    },
+    {
+      "label": "Eladrin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/eladrin"
+      }
+    },
+    {
+      "label": "High Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/highelf"
+      }
+    },
+    {
+      "label": "Sea Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/seaelf"
+      }
+    },
+    {
+      "label": "Shadar-Kai",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/shadarkai"
+      }
+    },
+    {
+      "label": "Wood Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/woodelf"
+      }
+    }
+  ]
+}
