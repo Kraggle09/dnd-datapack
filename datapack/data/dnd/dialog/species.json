@@ -200,7 +200,7 @@
       }
     },
     {
-      "label": "Tielfling",
+      "label": "Tiefling",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/tiefling"
