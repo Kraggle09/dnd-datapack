@@ -6,7 +6,7 @@ applyTo: '**'
 # Reviewing code
 ## When I ask you to review my code, please make sure:
 - Mention any potential issues.
-  - This includes bugs and redundant code.
+  - This includes bugs, redundant code, and typos.
 - Don't suggest fixes for the code, only point out what code is broken.
   - DO: "Line 24 on tick.mcfunction has an invalid targeter"
   - DON'T: "Line 24 on tick.mcfunction has an invalid targeter. Here's a fixed version: [fixed code]"
