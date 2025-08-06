@@ -2,6 +2,9 @@
   "type": "minecraft:dialog_list",
   "title": "DND | Species",
   "external_title": "Species",
+  "exit_action": {
+    "label": "Back"
+  },
   "dialogs": [
     "dnd:elf",
     "dnd:dwarf"
