@@ -11,6 +11,41 @@
   },
   "actions": [
     {
+      "label": "Aarakocra",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/aarakocra"
+      }
+    },
+    {
+      "label": "Aasimar",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/aasimar"
+      }
+    },
+    {
+      "label": "Bugbear",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/bugbear"
+      }
+    },
+    {
+      "label": "Centaur",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/centaur"
+      }
+    },
+    {
+      "label": "Dragonborn",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/dragonborn"
+      }
+    },
+    {
       "label": "Dwarf",
       "action": {
         "type": "minecraft:show_dialog",
@@ -25,10 +60,38 @@
       }
     },
     {
+      "label": "Fairy",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/fairy"
+      }
+    },
+    {
+      "label": "Firbolg",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/firbolg"
+      }
+    },
+    {
       "label": "Genasi",
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:genasi"
+      }
+    },
+    {
+      "label": "Githyanki",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/githyanki"
+      }
+    },
+    {
+      "label": "Githzerai",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/githzerai"
       }
     },
     {
@@ -39,6 +102,20 @@
       }
     },
     {
+      "label": "Goblin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/goblin"
+      }
+    },
+    {
+      "label": "Goliath",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/goliath"
+      }
+    },
+    {
       "label": "Halfling",
       "action": {
         "type": "minecraft:show_dialog",
@@ -46,10 +123,118 @@
       }
     },
     {
+      "label": "Half Orc",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/halforc"
+      }
+    },
+    {
+      "label": "Harengon",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/harengon"
+      }
+    },
+    {
+      "label": "Hobgoblin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/hobgoblin"
+      }
+    },
+    {
+      "label": "Kenku",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/kenku"
+      }
+    },
+    {
+      "label": "Kobold",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/kobold"
+      }
+    },
+    {
+      "label": "Lizardfolk",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/lizardfolk"
+      }
+    },
+    {
+      "label": "Minotaur",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/minotaur"
+      }
+    },
+    {
+      "label": "Orc",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/orc"
+      }
+    },
+    {
+      "label": "Satyr",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/satyr"
+      }
+    },
+    {
       "label": "Shifter",
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:shifter"
+      }
+    },
+    {
+      "label": "Tabaxi",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/tabaxi"
+      }
+    },
+    {
+      "label": "Tielfling",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/tiefling"
+      }
+    },
+    {
+      "label": "Tortle",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/tortle"
+      }
+    },
+    {
+      "label": "Triton",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/triton"
+      }
+    },
+    {
+      "label": "Yuan-Ti",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/yuanti"
+      }
+    },
+    {
+      "label": {
+        "text": "Reset",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/reset"
       }
     }
   ]
