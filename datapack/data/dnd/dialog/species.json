@@ -11,17 +11,17 @@
   },
   "actions": [
     {
-      "label": "Elf",
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:elf"
-      }
-    },
-    {
       "label": "Dwarf",
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:dwarf"
+      }
+    },
+    {
+      "label": "Elf",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:elf"
       }
     },
     {
