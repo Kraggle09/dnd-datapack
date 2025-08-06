@@ -3,6 +3,7 @@
   "title": "DND | Species",
   "external_title": "Species",
   "dialogs": [
-    "dnd:elf"
+    "dnd:elf",
+    "dnd:dwarf"
   ]
 }
