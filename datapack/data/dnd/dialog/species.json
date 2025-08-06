@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:dialog_list",
+  "type": "minecraft:multi_action",
   "title": "DND | Species",
   "external_title": "Species",
   "exit_action": {
@@ -9,8 +9,20 @@
       "dialog": "dnd:species"
     }
   },
-  "dialogs": [
-    "dnd:elf",
-    "dnd:dwarf"
+  "actions": [
+    {
+      "label": "Elf",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:elf"
+      }
+    },
+    {
+      "label": "Dwarf",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:dwarf"
+      }
+    }
   ]
 }
