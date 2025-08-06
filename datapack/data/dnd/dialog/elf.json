@@ -19,10 +19,31 @@
       }
     },
     {
+      "label": "Eladrin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/eladrin"
+      }
+    },
+    {
       "label": "High Elf",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/highelf"
+      }
+    },
+    {
+      "label": "Sea Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/seaelf"
+      }
+    },
+    {
+      "label": "Shadar-Kai",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/shadarkai"
       }
     },
     {
