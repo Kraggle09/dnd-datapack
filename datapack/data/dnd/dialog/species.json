@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "DND | Species",
+  "external_title": "Species",
+  "dialogs": [
+    "dnd:elf"
+  ]
+}
