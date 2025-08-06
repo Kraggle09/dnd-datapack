@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Gnome",
+  "external_title": "Gnome",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Forest/Rock Gnome",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/gnome"
+      }
+    },
+    {
+      "label": "Deep Gnome",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/deepgnome"
+      }
+    }
+  ]
+}

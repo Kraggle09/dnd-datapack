@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Shifter",
+  "external_title": "Shifter",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Beasthide Shifter",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/beasthideshifter"
+      }
+    },
+    {
+      "label": "Longtooth Shifter",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/longtoothshifter"
+      }
+    },
+    {
+      "label": "Swiftstride Shifter",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/swiftstrideshifter"
+      }
+    },
+    {
+      "label": "Wildhunt Shifter",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/wildhuntshifter"
+      }
+    }
+  ]
+}

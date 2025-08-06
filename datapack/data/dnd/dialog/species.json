@@ -23,6 +23,34 @@
         "type": "minecraft:show_dialog",
         "dialog": "dnd:dwarf"
       }
+    },
+    {
+      "label": "Genasi",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:genasi"
+      }
+    },
+    {
+      "label": "Gnome",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:gnome"
+      }
+    },
+    {
+      "label": "Halfling",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:halfling"
+      }
+    },
+    {
+      "label": "Shifter",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:shifter"
+      }
     }
   ]
 }

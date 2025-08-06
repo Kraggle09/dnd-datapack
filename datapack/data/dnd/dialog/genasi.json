@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Genasi",
+  "external_title": "Genasi",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Air Genasi",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/airgenasi"
+      }
+    },
+    {
+      "label": "Fire Genasi",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/firegenasi"
+      }
+    },
+    {
+      "label": "Earth Genasi",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/earthgenasi"
+      }
+    },
+    {
+      "label": "Water Genasi",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/watergenasi"
+      }
+    }
+  ]
+}
