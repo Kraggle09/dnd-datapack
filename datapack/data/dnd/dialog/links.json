@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Links",
+  "external_title": "Links",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:main"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Github Page",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/Kraggle09/dnd-datapack"
+      }
+    },
+    {
+      "label": "Bug Report/Feature Request",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/Kraggle09/dnd-datapack/issues"
+      }
+    },
+    {
+      "label": "Feedback Survey",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd1CkJqLjEqlWbUwzbJ8vKtapxPTE7FlVuAED58cmZwXEpsYA/viewform?usp=dialog"
+      }
+    }
+  ]
+}
