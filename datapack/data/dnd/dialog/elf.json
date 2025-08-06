@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Elf",
+  "external_title": "Species",
+  "actions": [
+    {
+      "label": "Dark Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/darkelf"
+      }
+    },
+    {
+      "label": "High Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/highelf"
+      }
+    },
+    {
+      "label": "Wood Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/woodelf"
+      }
+    }
+  ]
+}
