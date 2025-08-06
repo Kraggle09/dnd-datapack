@@ -1,7 +1,15 @@
 {
   "type": "minecraft:multi_action",
   "title": "DND | Species | Elf",
-  "external_title": "Species",
+  "external_title": "Elf",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
   "actions": [
     {
       "label": "Dark Elf",
