@@ -6,7 +6,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "dnd:species"
+      "dialog": "dnd:main"
     }
   },
   "actions": [
