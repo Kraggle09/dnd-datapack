@@ -123,6 +123,13 @@
       }
     },
     {
+      "label": "Half Elf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/halfelf"
+      }
+    },
+    {
       "label": "Half Orc",
       "action": {
         "type": "minecraft:run_command",
