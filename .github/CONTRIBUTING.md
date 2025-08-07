@@ -15,4 +15,5 @@
     *   It’s a good idea to familiarize yourself with the codebase before modifying it. This way your code will work well, and will fit the general style of my code.
 4.  Test the code in-game! Make sure it actually works before submitting.
 5.  Open a pull request, and describe what this feature does and any major things it modifies
-6.  Wait for me to merge it (which I may or may not do, no guarantees), then either delete the fork or leave it for future use.
+6.  Give the pull request a good title, and add [Feature] (for new features), [Tweak] (for a small change), [Fix] (for a bug fix), or [Improvements] for general improvements that may fall under multiple categories.
+8.  Wait for me to merge it (which I may or may not do, no guarantees), then either delete the fork or leave it for future use.
