@@ -1,1 +1,1 @@
-scoreboard players add global jumpCheat 1
+scoreboard players set global jumpCheat 1

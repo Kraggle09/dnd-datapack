@@ -1,1 +1,1 @@
-scoreboard players add global stepCheat 1
+scoreboard players set global stepCheat 1
