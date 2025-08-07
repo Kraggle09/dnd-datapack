@@ -1,0 +1,1 @@
+scoreboard players set global stepCheat 1
