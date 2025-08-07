@@ -20,21 +20,21 @@ execute store result score #time time run time query daytime
 
 execute if score #time time matches 23500 run function dnd:system/sunrise
 
-execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_axe"}},tag=axeBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[tag=axeBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[tag=axeBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
 
-execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:stone_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:iron_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword"}},tag=swordBonus] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 2 add_value
-execute as @a[tag=swordBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:stone_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:iron_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @a[tag=swordBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
 
 execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:1.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
 execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:2.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
