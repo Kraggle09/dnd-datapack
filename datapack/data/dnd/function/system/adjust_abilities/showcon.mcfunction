@@ -1,0 +1,1 @@
+scoreboard players get @s abilityCON
