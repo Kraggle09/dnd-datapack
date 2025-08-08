@@ -63,48 +63,48 @@
       "label": "STR",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showstr"
       }
     },
     {
       "label": "DEX",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showdex"
       }
     },
     {
       "label": "CON",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showcon"
       }
     },
     {
       "label": "INT",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showint"
       }
     },
     {
       "label": "WIS",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showwis"
       }
     },
     {
       "label": "CHA",
       "width": 20,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/adjust_abilities/showcha"
       }
     },
     {
