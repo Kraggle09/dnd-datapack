@@ -8,6 +8,7 @@
   "dialogs": [
     "dnd:species",
     "dnd:cheats",
-    "dnd:links"
+    "dnd:links",
+    "dnd:admin"
   ]
 }

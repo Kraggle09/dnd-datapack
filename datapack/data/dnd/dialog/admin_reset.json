@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Admin Panel",
+  "external_title": "Admin Panel",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:main"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Reset Shifts",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/resetshifts"
+      }
+    }
+  ]
+}
