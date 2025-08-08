@@ -64,7 +64,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showstr"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:STR}"
       }
     },
     {
@@ -72,7 +72,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showdex"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:DEX}"
       }
     },
     {
@@ -80,7 +80,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showcon"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:CON}"
       }
     },
     {
@@ -88,7 +88,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showint"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:INT}"
       }
     },
     {
@@ -96,7 +96,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showwis"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:WIS}"
       }
     },
     {
@@ -104,7 +104,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/showcha"
+        "command": "/function dnd:system/adjust_abilities/showscore1 {score:CHA}"
       }
     },
     {
