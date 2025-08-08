@@ -37,27 +37,51 @@
     },
     {
       "label": "STR",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "DEX",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "CON",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "INT",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "WIS",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "CHA",
-      "width": 20
+      "width": 20,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     },
     {
       "label": "-",
