@@ -18,6 +18,7 @@ attribute @s max_health modifier remove dnd:beasthide
 attribute @s minecraft:attack_damage modifier remove dnd:longtooth
 attribute @s minecraft:attack_speed modifier remove dnd:longtooth
 attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
+attribute @s minecraft:movement_speed modifier remove dnd:speedbase
 attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
 
 # Permanent Effects
