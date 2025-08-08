@@ -9,3 +9,4 @@ scoreboard objectives add stepCheat dummy
 scoreboard objectives add timeShifted dummy
 scoreboard objectives add shiftsToday dummy
 scoreboard objectives add PlayerCounter dummy
+execute as @a[tag=speedOf83] run attribute @s movement_speed base set 0.083
