@@ -6,6 +6,8 @@ Speed:
 35 ft = 0.16
 40 ft = 0.33
 
+Reminder: this does scale properly. This isn't mean to increase the same amount each 5 ft, it's meant to increase in the same percentage relative to the increase. So since 35 ft is 116% of 30 ft, it makes sense to be 0.16, and so on.
+
 Health:
 10 = 7.15
 15 = 10.725
