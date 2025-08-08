@@ -1,0 +1,1 @@
+scoreboard players add @s abilityCHA 1
