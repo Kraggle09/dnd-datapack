@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Admin Panel | Abilities",
+  "external_title": "Abilities",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:admin"
+    }
+  },
+  "columns": 6,
+  "actions": [
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "+",
+      "width": 20
+    },
+    {
+      "label": "STR",
+      "width": 20
+    },
+    {
+      "label": "DEX",
+      "width": 20
+    },
+    {
+      "label": "CON",
+      "width": 20
+    },
+    {
+      "label": "INT",
+      "width": 20
+    },
+    {
+      "label": "WIS",
+      "width": 20
+    },
+    {
+      "label": "CHA",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    },
+    {
+      "label": "-",
+      "width": 20
+    }
+  ]
+}
