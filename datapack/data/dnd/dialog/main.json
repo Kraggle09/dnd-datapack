@@ -1,14 +1,41 @@
 {
-  "type": "minecraft:dialog_list",
+  "type": "minecraft:multi_action",
   "title": "DND",
   "exit_action": {
     "label": "Back"
   },
   "columns": 1,
-  "dialogs": [
-    "dnd:species",
-    "dnd:cheats",
-    "dnd:links",
-    "dnd:admin"
+  "actions": [
+    {
+      "label": "Species",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:species"
+      }
+    },
+    {
+      "label": "Cheats",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:cheats"
+      }
+    },
+    {
+      "label": "Links",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:links"
+      }
+    },
+    {
+      "label": {
+        "text": "Admin Panel",
+        "color": "#b30000"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin"
+      }
+    }
   ]
 }
