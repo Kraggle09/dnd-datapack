@@ -18,6 +18,7 @@ attribute @s max_health modifier remove dnd:beasthide
 attribute @s minecraft:attack_damage modifier remove dnd:longtooth
 attribute @s minecraft:attack_speed modifier remove dnd:longtooth
 attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
+attribute @s minecraft:movement_speed modifier remove dnd:speedbase
 attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
 
 # Permanent Effects
@@ -48,6 +49,7 @@ tag @s remove beasthide
 tag @s remove longtooth
 tag @s remove swiftstride
 tag @s remove wildhunt
+tag @s remove speedOf83
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage

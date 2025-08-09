@@ -16,3 +16,4 @@ scoreboard objectives add abilityCON dummy
 scoreboard objectives add abilityINT dummy
 scoreboard objectives add abilityWIS dummy
 scoreboard objectives add abilityCHA dummy
+execute as @a[tag=speedOf83] run attribute @s movement_speed base set 0.083

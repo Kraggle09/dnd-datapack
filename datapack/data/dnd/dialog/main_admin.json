@@ -26,6 +26,16 @@
         "type": "minecraft:show_dialog",
         "dialog": "dnd:links"
       }
+    },
+    {
+      "label": {
+        "text": "Admin Panel",
+        "color": "#b30000"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin"
+      }
     }
   ]
 }
