@@ -1,1 +1,0 @@
-scoreboard players remove @s abilityCON 1

@@ -1,1 +1,0 @@
-scoreboard players add @s abilityCON 1

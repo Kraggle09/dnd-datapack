@@ -1,1 +1,0 @@
-scoreboard players remove @s abilitySTR 1

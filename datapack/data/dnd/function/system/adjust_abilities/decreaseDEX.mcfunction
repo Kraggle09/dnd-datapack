@@ -1,1 +1,0 @@
-scoreboard players remove @s abilityDEX 1

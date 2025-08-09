@@ -16,7 +16,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increasestr"
+        "command": "/function dnd:system/adjust_abilities/increase {score:STR}"
       }
     },
     {
@@ -24,7 +24,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increasedex"
+        "command": "/function dnd:system/adjust_abilities/increase {score:DEX}"
       }
     },
     {
@@ -32,7 +32,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increasecon"
+        "command": "/function dnd:system/adjust_abilities/increase {score:CON}"
       }
     },
     {
@@ -40,7 +40,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increaseint"
+        "command": "/function dnd:system/adjust_abilities/increase {score:INT}"
       }
     },
     {
@@ -48,7 +48,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increasewis"
+        "command": "/function dnd:system/adjust_abilities/increase {score:WIS}"
       }
     },
     {
@@ -56,7 +56,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/increasecha"
+        "command": "/function dnd:system/adjust_abilities/increase {score:CHA}"
       }
     },
     {
@@ -112,7 +112,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreasestr"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:STR}"
       }
     },
     {
@@ -120,7 +120,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreasedex"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:DEX}"
       }
     },
     {
@@ -128,7 +128,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreasecon"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:CON}"
       }
     },
     {
@@ -136,7 +136,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreaseint"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:INT}"
       }
     },
     {
@@ -144,7 +144,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreasewis"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:WIS}"
       }
     },
     {
@@ -152,7 +152,7 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:system/adjust_abilities/decreasecha"
+        "command": "/function dnd:system/adjust_abilities/decrease {score:CHA}"
       }
     }
   ]

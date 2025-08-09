@@ -1,1 +1,0 @@
-scoreboard players add @s abilityDEX 1
