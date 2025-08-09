@@ -3,6 +3,7 @@ schedule function dnd:system/clearpoison 100t
 schedule function dnd:system/addfireresis 100t
 schedule function dnd:system/clearwither 100t
 schedule function dnd:system/checkforskyaccess 5s
+schedule function dnd:system/abilityscorebenefits1 20t
 scoreboard objectives add jumpCheat dummy
 scoreboard objectives add time dummy
 scoreboard objectives add stepCheat dummy
