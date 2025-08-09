@@ -40,6 +40,7 @@ execute if score @s abilityDEX matches 18 run function dnd:system/abilityscorebe
 execute if score @s abilityDEX matches 19 run function dnd:system/abilityscorebenefits/dex19
 execute if score @s abilityDEX matches 20 run function dnd:system/abilityscorebenefits/dex20
 
+
 attribute @s armor modifier remove dnd:abilityscore
 
 execute if score @s abilityCON matches 10..12 run attribute @s armor modifier add dnd:abilityscore 0 add_value
