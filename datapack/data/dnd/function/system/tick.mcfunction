@@ -72,3 +72,11 @@ execute if score Online PlayerCounter matches 2.. at @a[tag=shifted,tag=wildhunt
 # MISC
 execute as @a[tag=naturalArmor] run function dnd:system/applynaturalarmor
 execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
+
+# Ability scores
+execute as @a unless score @s abilitySTR matches -2147483648..2147483647 run scoreboard players set @s abilitySTR 10
+execute as @a unless score @s abilityDEX matches -2147483648..2147483647 run scoreboard players set @s abilityDEX 10
+execute as @a unless score @s abilityCON matches -2147483648..2147483647 run scoreboard players set @s abilityCON 10
+execute as @a unless score @s abilityINT matches -2147483648..2147483647 run scoreboard players set @s abilityINT 10
+execute as @a unless score @s abilityWIS matches -2147483648..2147483647 run scoreboard players set @s abilityWIS 10
+execute as @a unless score @s abilityCHA matches -2147483648..2147483647 run scoreboard players set @s abilityCHA 10

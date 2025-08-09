@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
-  "title": "DND | Admin Panel",
-  "external_title": "Admin Panel",
+  "title": "DND | Admin Panel | Reset",
+  "external_title": "Reset",
   "exit_action": {
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "dnd:main"
+      "dialog": "dnd:admin"
     }
   },
   "columns": 1,

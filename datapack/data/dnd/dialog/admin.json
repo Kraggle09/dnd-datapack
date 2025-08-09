@@ -17,6 +17,13 @@
         "type": "minecraft:show_dialog",
         "dialog": "dnd:admin_reset"
       }
+    },
+    {
+      "label": "Abilities",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:admin_abilities"
+      }
     }
   ]
 }
