@@ -58,6 +58,7 @@ tag @s remove longtooth
 tag @s remove swiftstride
 tag @s remove wildhunt
 tag @s remove speedOf83
+tag @s remove hideInFoliage
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage

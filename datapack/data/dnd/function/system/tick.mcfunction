@@ -80,3 +80,9 @@ execute as @a unless score @s abilityCON matches -2147483648..2147483647 run sco
 execute as @a unless score @s abilityINT matches -2147483648..2147483647 run scoreboard players set @s abilityINT 10
 execute as @a unless score @s abilityWIS matches -2147483648..2147483647 run scoreboard players set @s abilityWIS 10
 execute as @a unless score @s abilityCHA matches -2147483648..2147483647 run scoreboard players set @s abilityCHA 10
+
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ tall_grass run effect give @s invisibility infinite 6 true
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless block ~ ~1 ~ tall_grass run effect clear @s invisibility
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ tall_grass run effect clear @s invisibility
+
+execute as @a[scores={crouchDetect=1}] run scoreboard players reset @a crouchDetect
