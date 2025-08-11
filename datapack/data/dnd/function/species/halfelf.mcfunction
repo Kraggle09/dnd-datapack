@@ -5,5 +5,3 @@ attribute @s minecraft:jump_strength base set 0.4116
 attribute @s minecraft:step_height base set 0.6
 tag @s add nightVision
 tag @s add chosenSpecies
-
-# Goes to sleep faster
