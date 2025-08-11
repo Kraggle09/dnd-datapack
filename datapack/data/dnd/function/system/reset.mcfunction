@@ -26,6 +26,14 @@ execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
 
+# Ability Scores
+scoreboard players set @s abilitySTR 10
+scoreboard players set @s abilityDEX 10
+scoreboard players set @s abilityCON 10
+scoreboard players set @s abilityINT 10
+scoreboard players set @s abilityWIS 10
+scoreboard players set @s abilityCHA 10
+
 # Tags
 tag @s remove nightVision
 tag @s remove antiPoison
