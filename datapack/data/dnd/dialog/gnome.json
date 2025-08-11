@@ -12,10 +12,17 @@
   "columns": 1,
   "actions": [
     {
-      "label": "Forest/Rock Gnome",
+      "label": "Forest Gnome",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:species/gnome"
+        "command": "/function dnd:species/forestgnome"
+      }
+    },
+    {
+      "label": "Rock Gnome",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/rockgnome"
       }
     },
     {
