@@ -3,6 +3,7 @@ function dnd:system/gnome
 attribute @s minecraft:scale base set 0.56
 attribute @s minecraft:jump_strength base set 0.3672
 attribute @s minecraft:step_height base set 0.5454
+attribute @s tempt_range base set 20
 tag @s add shortJumpHeight
 tag @s add shortStepHeight
 scoreboard players add @s abilityDEX 1
