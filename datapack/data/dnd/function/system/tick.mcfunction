@@ -86,7 +86,12 @@ execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ l
 execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ tall_dry_grass run effect give @s invisibility infinite 6 true
 execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ tall_seagrass run effect give @s invisibility infinite 6 true
 execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ sugar_cane run effect give @s invisibility infinite 6 true
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless block ~ ~1 ~ tall_grass unless block ~ ~1 ~ large_fern unless block ~ ~1 ~ tall_dry_grass unless block ~ ~1 ~ tall_seagrass unless block ~ ~1 ~ sugar_cane run effect clear @s invisibility
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ tall_grass if block ~ ~1 ~ large_fern if block ~ ~1 ~ tall_dry_grass if block ~ ~1 ~ tall_seagrass if block ~ ~1 ~ sugar_cane run effect clear @s invisibility
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ lilac run effect give @s invisibility infinite 6 true
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ peony run effect give @s invisibility infinite 6 true
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ pitcher_plant run effect give @s invisibility infinite 6 true
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ rose_bush run effect give @s invisibility infinite 6 true
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ sunflower run effect give @s invisibility infinite 6 true
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless block ~ ~1 ~ tall_grass unless block ~ ~1 ~ large_fern unless block ~ ~1 ~ tall_dry_grass unless block ~ ~1 ~ tall_seagrass unless block ~ ~1 ~ sugar_cane unless block ~ ~1 ~ lilac unless block ~ ~1 ~ peony unless block ~ ~1 ~ pitcher_plant unless block ~ ~1 ~ rose_bush unless block ~ ~1 ~ sunflower run effect clear @s invisibility
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ tall_grass if block ~ ~1 ~ large_fern if block ~ ~1 ~ tall_dry_grass if block ~ ~1 ~ tall_seagrass if block ~ ~1 ~ sugar_cane if block ~ ~1 ~ lilac if block ~ ~1 ~ peony if block ~ ~1 ~ pitcher_plant if block ~ ~1 ~ rose_bush if block ~ ~1 ~ sunflower run effect clear @s invisibility
 
 execute as @a[scores={crouchDetect=1}] run scoreboard players reset @a crouchDetect
