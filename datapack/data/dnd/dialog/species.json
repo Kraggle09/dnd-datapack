@@ -151,6 +151,13 @@
       }
     },
     {
+      "label": "Human",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/human"
+      }
+    },
+    {
       "label": "Kenku",
       "action": {
         "type": "minecraft:run_command",
