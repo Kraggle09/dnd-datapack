@@ -6,4 +6,5 @@ attribute @s minecraft:step_height base set 0.3516
 tag @s add shortJumpHeight
 tag @s add shortStepHeight
 tag @s add nightVision
+scoreboard players add @s abilityDEX 2
 tag @s add chosenSpecies

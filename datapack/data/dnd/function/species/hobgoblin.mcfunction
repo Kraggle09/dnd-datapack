@@ -4,4 +4,6 @@ attribute @s minecraft:scale base set 0.94
 attribute @s minecraft:jump_strength base set 0.4128
 attribute @s minecraft:step_height base set 0.6
 tag @s add nightVision
+scoreboard players add @s abilityCON 2
+scoreboard players add @s abilityWIS 1
 tag @s add chosenSpecies

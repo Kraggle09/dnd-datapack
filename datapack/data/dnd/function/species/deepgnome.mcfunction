@@ -5,4 +5,5 @@ attribute @s minecraft:jump_strength base set 0.366
 attribute @s minecraft:step_height base set 0.5432
 tag @s add shortJumpHeight
 tag @s add shortStepHeight
+scoreboard players add @s abilityDEX 1
 tag @s add chosenSpecies
