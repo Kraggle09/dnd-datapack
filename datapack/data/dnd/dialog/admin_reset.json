@@ -17,6 +17,13 @@
         "type": "minecraft:run_command",
         "command": "/function dnd:system/resetshifts"
       }
+    },
+    {
+      "label": "Reset Healing Hands",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/resethealinghands"
+      }
     }
   ]
 }

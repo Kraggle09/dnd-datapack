@@ -9,6 +9,7 @@ scoreboard objectives add time dummy
 scoreboard objectives add stepCheat dummy
 scoreboard objectives add timeShifted dummy
 scoreboard objectives add shiftsToday dummy
+scoreboard objectives add healingHandsToday dummy
 scoreboard objectives add PlayerCounter dummy
 scoreboard objectives add abilitySTR dummy
 scoreboard objectives add abilityDEX dummy
