@@ -86,3 +86,9 @@ execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}]
 execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
 
 execute as @a if score @s crouchDetect matches -2147483648..2147483647 run scoreboard players reset @a crouchDetect
+
+execute as @a[tag=naturalArmorWithoutArmor] unless items entity @s armor.chest * unless items entity @s armor.legs * unless items entity @s armor.head * unless items entity @s armor.feet * run attribute @s armor modifier add dnd:naturalarmor 6.0 add_value
+execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.chest * run attribute @s armor modifier remove dnd:naturalarmor
+execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.legs * run attribute @s armor modifier remove dnd:naturalarmor
+execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.head * run attribute @s armor modifier remove dnd:naturalarmor
+execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.feet * run attribute @s armor modifier remove dnd:naturalarmor

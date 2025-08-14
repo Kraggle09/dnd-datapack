@@ -9,4 +9,6 @@ attribute @s attack_damage base set 2.0
 tag @s add swimBoost
 scoreboard players add @s abilityCON 2
 scoreboard players add @s abilityWIS 1
+attribute @s attack_damage base set 2.0
+tag @s add naturalArmorWithoutArmor
 tag @s add chosenSpecies
