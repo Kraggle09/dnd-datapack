@@ -20,6 +20,7 @@ attribute @s minecraft:attack_speed modifier remove dnd:longtooth
 attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
 attribute @s minecraft:movement_speed modifier remove dnd:speedbase
 attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
+attribute @s armor modifier remove dnd:naturalarmor
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
@@ -62,6 +63,7 @@ tag @s remove hideInFoliage
 tag @s remove healingHands
 tag @s remove healingHandsSuccessful
 tag @s remove tempinvis
+tag @s remove naturalArmorWithoutArmor
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
