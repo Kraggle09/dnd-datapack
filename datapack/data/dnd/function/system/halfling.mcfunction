@@ -6,3 +6,4 @@ tag @s add shortJumpHeight
 attribute @s minecraft:step_height base set 0.5321
 tag @s add shortStepHeight
 attribute @s minecraft:luck base set 1
+scoreboard players add @s abilityDEX 2

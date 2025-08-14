@@ -20,11 +20,20 @@ attribute @s minecraft:attack_speed modifier remove dnd:longtooth
 attribute @s minecraft:movement_speed modifier remove dnd:swiftstride
 attribute @s minecraft:movement_speed modifier remove dnd:speedbase
 attribute @s minecraft:jump_strength modifier remove dnd:swiftstride
+attribute @s armor modifier remove dnd:naturalarmor
 
 # Permanent Effects
 execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
+
+# Ability Scores
+scoreboard players set @s abilitySTR 10
+scoreboard players set @s abilityDEX 10
+scoreboard players set @s abilityCON 10
+scoreboard players set @s abilityINT 10
+scoreboard players set @s abilityWIS 10
+scoreboard players set @s abilityCHA 10
 
 # Tags
 tag @s remove nightVision
@@ -50,6 +59,12 @@ tag @s remove longtooth
 tag @s remove swiftstride
 tag @s remove wildhunt
 tag @s remove speedOf83
+tag @s remove hideInFoliage
+tag @s remove healingHands
+tag @s remove healingHandsSuccessful
+tag @s remove tempinvis
+tag @s remove naturalArmorWithoutArmor
+tag @s remove shortSpeedBoost
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage

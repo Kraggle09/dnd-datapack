@@ -81,17 +81,10 @@
       }
     },
     {
-      "label": "Githyanki",
+      "label": "Gith",
       "action": {
-        "type": "minecraft:run_command",
-        "command": "/function dnd:species/githyanki"
-      }
-    },
-    {
-      "label": "Githzerai",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "/function dnd:species/githzerai"
+        "type": "minecraft:show_dialog",
+        "dialog": "dnd:gith"
       }
     },
     {
@@ -148,6 +141,13 @@
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/hobgoblin"
+      }
+    },
+    {
+      "label": "Human",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/human"
       }
     },
     {

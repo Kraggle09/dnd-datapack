@@ -7,4 +7,5 @@ attribute @s minecraft:step_height base set 0.6
 attribute @s submerged_mining_speed base set 1
 tag @s add swimBoost
 tag @s add waterBreathing
+scoreboard players add @s abilityCON 1
 tag @s add chosenSpecies

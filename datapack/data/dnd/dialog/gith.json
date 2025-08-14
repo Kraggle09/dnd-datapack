@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "DND | Species | Gith",
+  "external_title": "Gith",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dnd:species"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Githyanki",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/githyanki"
+      }
+    },
+    {
+      "label": "Githzerai",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:species/githzerai"
+      }
+    }
+  ]
+}

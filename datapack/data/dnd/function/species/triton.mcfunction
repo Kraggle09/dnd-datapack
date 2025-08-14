@@ -7,4 +7,7 @@ attribute @s submerged_mining_speed base set 1
 tag @s add swimBoost
 tag @s add waterBreathing
 tag @s add antiFreeze
+scoreboard players add @s abilitySTR 1
+scoreboard players add @s abilityCON 1
+scoreboard players add @s abilityCHA 1
 tag @s add chosenSpecies
