@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Abilities",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Not all abilities are available for all species"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Healing Hands",
+      "tooltip": "Heal a mob right next to you",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:abilities/healinghands"
+      }
+    },
+    {
+      "label": "Shift",
+      "tooltip": "Gain temporary abilities depending on your subtype",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:abilities/shift"
+      }
+    },
+    {
+      "label": "Speed Boost",
+      "tooltip": "Gain a temporary boost of speed",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:abilities/speedboost"
+      }
+    },
+    {
+      "label": "Temporary Invisibility",
+      "tooltip": "Turn invisible for a short period of time",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:abilities/tempinvisibility"
+      }
+    }
+  ]
+}
