@@ -1,1 +1,1 @@
-scoreboard players reset @s healingHandsToday
+scoreboard players reset @a healingHandsToday

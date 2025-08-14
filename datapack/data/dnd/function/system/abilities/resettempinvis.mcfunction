@@ -1,1 +1,1 @@
-scoreboard players reset @s tempInvisToday
+scoreboard players reset @a tempInvisToday
