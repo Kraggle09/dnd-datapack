@@ -1,6 +1,6 @@
 function dnd:system/reset
-attribute @s minecraft:movement_speed base set 0.1
+function dnd:system/gith
 attribute @s minecraft:scale base set 0.98
 attribute @s minecraft:jump_strength base set 0.4176
-attribute @s minecraft:step_height base set 0.6
+scoreboard players add @s abilityWIS 2
 tag @s add chosenSpecies
