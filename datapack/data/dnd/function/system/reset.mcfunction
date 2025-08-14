@@ -64,6 +64,7 @@ tag @s remove healingHands
 tag @s remove healingHandsSuccessful
 tag @s remove tempinvis
 tag @s remove naturalArmorWithoutArmor
+tag @s remove shortSpeedBoost
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage

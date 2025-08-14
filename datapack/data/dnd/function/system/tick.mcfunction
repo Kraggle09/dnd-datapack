@@ -92,3 +92,6 @@ execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.chest * run
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.legs * run attribute @s armor modifier remove dnd:naturalarmor
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.head * run attribute @s armor modifier remove dnd:naturalarmor
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.feet * run attribute @s armor modifier remove dnd:naturalarmor
+
+scoreboard players add @a[tag=shortSpeedBoostActive] shortSpeedBoostCooldown 1
+execute as @a[tag=shortSpeedBoostActive] if score @s shortSpeedBoostCooldown matches 600 run function dnd:system/abilities/resetshortspeedboost
