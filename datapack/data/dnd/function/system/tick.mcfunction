@@ -73,7 +73,7 @@ execute if score Online PlayerCounter matches 2.. at @a[tag=shifted,tag=wildhunt
 execute as @a[tag=naturalArmor] run function dnd:system/applynaturalarmor
 execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
 
-# Ability scores
+# ABILITY SCORES
 execute as @a unless score @s abilitySTR matches -2147483648..2147483647 run scoreboard players set @s abilitySTR 10
 execute as @a unless score @s abilityDEX matches -2147483648..2147483647 run scoreboard players set @s abilityDEX 10
 execute as @a unless score @s abilityCON matches -2147483648..2147483647 run scoreboard players set @s abilityCON 10
@@ -81,17 +81,19 @@ execute as @a unless score @s abilityINT matches -2147483648..2147483647 run sco
 execute as @a unless score @s abilityWIS matches -2147483648..2147483647 run scoreboard players set @s abilityWIS 10
 execute as @a unless score @s abilityCHA matches -2147483648..2147483647 run scoreboard players set @s abilityCHA 10
 
+# HIDING IN FOLIAGE
 execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #minecraft:stealth_foliage run effect give @s invisibility infinite 9 true
 execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
 execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
-
 execute as @a if score @s crouchDetect matches -2147483648..2147483647 run scoreboard players reset @a crouchDetect
 
+# NATURAL ARMOR (WITHOUT ARMOR)
 execute as @a[tag=naturalArmorWithoutArmor] unless items entity @s armor.chest * unless items entity @s armor.legs * unless items entity @s armor.head * unless items entity @s armor.feet * run attribute @s armor modifier add dnd:naturalarmor 6.0 add_value
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.chest * run attribute @s armor modifier remove dnd:naturalarmor
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.legs * run attribute @s armor modifier remove dnd:naturalarmor
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.head * run attribute @s armor modifier remove dnd:naturalarmor
 execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.feet * run attribute @s armor modifier remove dnd:naturalarmor
 
+# SHORT SPEED BOOST
 scoreboard players add @a[tag=shortSpeedBoostActive] shortSpeedBoostCooldown 1
 execute as @a if score @s shortSpeedBoostCooldown matches 600 run function dnd:system/abilities/resetshortspeedboost
