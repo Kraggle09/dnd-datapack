@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Beasthide Shifter",
+      "tooltip": {
+        "text": "Traits:\nBeasthide Shift (Ability)\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/beasthideshifter"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Longtooth Shifter",
+      "tooltip": {
+        "text": "Traits:\nLongtooth Shift (Ability)\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/longtoothshifter"
@@ -27,6 +33,9 @@
     },
     {
       "label": "Swiftstride Shifter",
+      "tooltip": {
+        "text": "Traits:\nSwiftstride Shift (Ability)\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/swiftstrideshifter"
@@ -34,6 +43,9 @@
     },
     {
       "label": "Wildhunt Shifter",
+      "tooltip": {
+        "text": "Traits:\nWildhunt Shift (Ability)\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/wildhuntshifter"

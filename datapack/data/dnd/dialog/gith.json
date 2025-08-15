@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Githyanki",
+      "tooltip": {
+        "text": "Traits:\nSword Proficiency"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/githyanki"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Githzerai",
+      "tooltip": {
+        "text": "Traits:\nN/A"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/githzerai"

@@ -13,13 +13,19 @@
   "actions": [
     {
       "label": "Air Genasi",
-      "action": {
+      "tooltip": {
+        "text": "Traits:\nWater Breathing"
+      },
+      "action": {        
         "type": "minecraft:run_command",
         "command": "/function dnd:species/airgenasi"
       }
     },
     {
       "label": "Fire Genasi",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nResistance to Fire Damage"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/firegenasi"
@@ -27,6 +33,9 @@
     },
     {
       "label": "Earth Genasi",
+      "tooltip": {
+        "text": "Traits:\nHigher Movement Efficiency"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/earthgenasi"
@@ -34,6 +43,9 @@
     },
     {
       "label": "Water Genasi",
+      "tooltip": {
+        "text": "Traits:\nFaster Swimming Speed\nWater Breathing"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/watergenasi"

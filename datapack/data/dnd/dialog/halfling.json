@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Lightfoot Halfling",
+      "tooltip": {
+        "text": "Traits:\nLucky\nShort\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/lightfoothalfling"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Stout Halfling",
+      "tooltip": {
+        "text": "Traits:\nLucky\nPoison Resistance\nShort\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/stouthalfling"

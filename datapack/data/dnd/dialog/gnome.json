@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Forest Gnome",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/forestgnome"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Rock Gnome",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/rockgnome"
@@ -27,6 +33,9 @@
     },
     {
       "label": "Deep Gnome",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/deepgnome"

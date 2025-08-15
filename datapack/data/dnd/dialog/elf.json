@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Dark Elf",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nLight Weakness"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/darkelf"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Eladrin",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nDaily Teleport"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/eladrin"
@@ -27,6 +33,9 @@
     },
     {
       "label": "High Elf",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/highelf"
@@ -34,6 +43,9 @@
     },
     {
       "label": "Sea Elf",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nFaster Swimming Speed\nWater Breathing"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/seaelf"
@@ -41,6 +53,9 @@
     },
     {
       "label": "Shadar-Kai",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nResistance to Wither Damage\nDaily Teleport"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/shadarkai"
@@ -48,6 +63,9 @@
     },
     {
       "label": "Wood Elf",
+      "tooltip": {
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nHide in Tall Plants\nFast"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/woodelf"

@@ -2,6 +2,10 @@
   "type": "minecraft:multi_action",
   "title": "DND | Species",
   "external_title": "Species",
+  "body": {
+    "type": "plain_message",
+    "contents": "Hover over species to see their traits. Ability score increases aren't listed. Check out the wiki for more information."
+  },
   "exit_action": {
     "label": "Back",
     "action": {
@@ -12,6 +16,9 @@
   "actions": [
     {
       "label": "Aarakocra",
+      "tooltip": {
+        "text": "Traits:\nHigher Attack Damage\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/aarakocra"
@@ -19,6 +26,9 @@
     },
     {
       "label": "Aasimar",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nWither Resistance\nHealing Hands (Ability)"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/aasimar"
@@ -26,6 +36,9 @@
     },
     {
       "label": "Bugbear",
+      "tooltip": {
+        "text": "Traits:\nLonger Reach\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/bugbear"
@@ -33,6 +46,9 @@
     },
     {
       "label": "Centaur",
+      "tooltip": {
+        "text": "Traits:\nHigher Attack Damage\nVery Fast"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/centaur"
@@ -40,6 +56,9 @@
     },
     {
       "label": "Dragonborn",
+      "tooltip": {
+        "text": "Traits:\nN/A (for now)"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/dragonborn"
@@ -47,6 +66,9 @@
     },
     {
       "label": "Dwarf",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:dwarf"
@@ -54,6 +76,9 @@
     },
     {
       "label": "Elf",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:elf"
@@ -61,6 +86,9 @@
     },
     {
       "label": "Fairy",
+      "tooltip": {
+        "text": "Traits:\nVery Short"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/fairy"
@@ -68,6 +96,9 @@
     },
     {
       "label": "Firbolg",
+      "tooltip": {
+        "text": "Traits:\nTemporary Invisibility (Ability)"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/firbolg"
@@ -75,6 +106,9 @@
     },
     {
       "label": "Genasi",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:genasi"
@@ -82,6 +116,9 @@
     },
     {
       "label": "Gith",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:gith"
@@ -89,6 +126,9 @@
     },
     {
       "label": "Gnome",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:gnome"
@@ -96,6 +136,9 @@
     },
     {
       "label": "Goblin",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nShort"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/goblin"
@@ -103,6 +146,9 @@
     },
     {
       "label": "Goliath",
+      "tooltip": {
+        "text": "Traits:\nTall\nNatural Armor"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/goliath"
@@ -110,6 +156,9 @@
     },
     {
       "label": "Halfling",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:halfling"
@@ -117,6 +166,9 @@
     },
     {
       "label": "Half Elf",
+      "tooltip": {
+        "text": "Traits:\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/halfelf"
@@ -124,6 +176,9 @@
     },
     {
       "label": "Half Orc",
+      "tooltip": {
+        "text": "Traits:\nExtra Damage when at Low Health\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/halforc"
@@ -131,6 +186,9 @@
     },
     {
       "label": "Harengon",
+      "tooltip": {
+        "text": "Traits:\nHigh Jump Height"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/harengon"
@@ -138,6 +196,9 @@
     },
     {
       "label": "Hobgoblin",
+      "tooltip": {
+        "text": "Traits:\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/hobgoblin"
@@ -145,6 +206,9 @@
     },
     {
       "label": "Human",
+      "tooltip": {
+        "text": "Traits:\nN/A"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/human"
@@ -152,6 +216,9 @@
     },
     {
       "label": "Kenku",
+      "tooltip": {
+        "text": "Traits:\nN/A"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/kenku"
@@ -159,6 +226,9 @@
     },
     {
       "label": "Kobold",
+      "tooltip": {
+        "text": "Traits:\nVery Short\nNight Vision\nLight Weakness"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/kobold"
@@ -166,6 +236,9 @@
     },
     {
       "label": "Lizardfolk",
+      "tooltip": {
+        "text": "Traits:\nFaster Swimming Speed\nLong Breath\nHigher Attack Damage\nNatural Armor (while not wearing armor)"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/lizardfolk"
@@ -173,6 +246,9 @@
     },
     {
       "label": "Minotaur",
+      "tooltip": {
+        "text": "Traits:\nMuch Higher Attack Damage"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/minotaur"
@@ -180,6 +256,9 @@
     },
     {
       "label": "Orc",
+      "tooltip": {
+        "text": "Traits:\nLong Speed Boost (Ability)\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/orc"
@@ -187,6 +266,9 @@
     },
     {
       "label": "Satyr",
+      "tooltip": {
+        "text": "Traits:\nFast\nHigher Attack Damage"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/satyr"
@@ -194,6 +276,9 @@
     },
     {
       "label": "Shifter",
+      "tooltip": {
+        "text": "Click for Subspecies"
+      },
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "dnd:shifter"
@@ -201,6 +286,9 @@
     },
     {
       "label": "Tabaxi",
+      "tooltip": {
+        "text": "Traits:\nShort Speed Boosts (Ability)\nHigher Attack Damage\nNight Vision"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/tabaxi"
@@ -208,6 +296,9 @@
     },
     {
       "label": "Tiefling",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nResistance to Fire Damage"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/tiefling"
@@ -215,6 +306,9 @@
     },
     {
       "label": "Tortle",
+      "tooltip": {
+        "text": "Traits:\nGreat Natural Armor\nCan't Wear Chestplate\nCan't Wear Leggings\nVery Long Breath\nHigher Attack Damage"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/tortle"
@@ -222,6 +316,9 @@
     },
     {
       "label": "Triton",
+      "tooltip": {
+        "text": "Traits:\nFaster Swimming Speed\nWater Breathing"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/triton"
@@ -229,6 +326,9 @@
     },
     {
       "label": "Yuan-Ti",
+      "tooltip": {
+        "text": "Traits:\nNight Vision\nPoison Immunity"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/yuanti"

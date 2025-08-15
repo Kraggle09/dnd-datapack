@@ -13,6 +13,9 @@
   "actions": [
     {
       "label": "Duergar",
+      "tooltip": {
+        "text": "Traits:\nPoison Resistance\nNight Vision\nAxe Proficiency\nLight Weakness\nShort\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/duergar"
@@ -20,6 +23,9 @@
     },
     {
       "label": "Hill Dwarf",
+      "tooltip": {
+        "text": "Traits:\nPoison Resistance\nNight Vision\nAxe Proficiency\nExtra Heart\nShort\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/hilldwarf"
@@ -27,6 +33,9 @@
     },
     {
       "label": "Mountain Dwarf",
+      "tooltip": {
+        "text": "Traits:\nPoison Resistance\nNight Vision\nAxe Proficiency\nExtra Heart\nShort\nSlow"
+      },
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:species/mountaindwarf"
