@@ -1,7 +1,7 @@
 # EFFECTS
-effect give @a[tag=nightVision] minecraft:night_vision infinite 0 true
-effect give @a[tag=swimBoost] minecraft:dolphins_grace infinite 0 true
-effect give @a[tag=waterBreathing] minecraft:water_breathing infinite 0 true
+effect give @a[tag=nightVision] minecraft:night_vision infinite 9 true
+effect give @a[tag=swimBoost] minecraft:dolphins_grace infinite 9 true
+effect give @a[tag=waterBreathing] minecraft:water_breathing infinite 9 true
 effect clear @a[tag=poisonimmunity] minecraft:poison
 
 # CHEATS
@@ -81,9 +81,9 @@ execute as @a unless score @s abilityINT matches -2147483648..2147483647 run sco
 execute as @a unless score @s abilityWIS matches -2147483648..2147483647 run scoreboard players set @s abilityWIS 10
 execute as @a unless score @s abilityCHA matches -2147483648..2147483647 run scoreboard players set @s abilityCHA 10
 
-execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #minecraft:stealth_foliage run effect give @s invisibility infinite 6 true
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:6b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #minecraft:stealth_foliage run effect give @s invisibility infinite 9 true
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
 
 execute as @a if score @s crouchDetect matches -2147483648..2147483647 run scoreboard players reset @a crouchDetect
 
