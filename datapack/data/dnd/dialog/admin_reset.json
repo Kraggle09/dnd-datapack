@@ -40,6 +40,13 @@
       }
     },
     {
+      "label": "Reset Teleport",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:system/abilities/resetteleport"
+      }
+    },
+    {
       "label": "Reset Temp Invisibility",
       "action": {
         "type": "minecraft:run_command",

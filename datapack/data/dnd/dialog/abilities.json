@@ -32,6 +32,14 @@
       }
     },
     {
+      "label": "Teleport",
+      "tooltip": "Get a free ender pearl (disappears after 10 seconds)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:abilities/teleport"
+      }
+    },
+    {
       "label": "Temporary Invisibility",
       "tooltip": "Turn invisible for a short period of time",
       "action": {

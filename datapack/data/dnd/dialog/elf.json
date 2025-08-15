@@ -24,7 +24,7 @@
     {
       "label": "Eladrin",
       "tooltip": {
-        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nDaily Teleport"
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nTeleport (Ability)"
       },
       "action": {
         "type": "minecraft:run_command",
@@ -54,7 +54,7 @@
     {
       "label": "Shadar-Kai",
       "tooltip": {
-        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nResistance to Wither Damage\nDaily Teleport"
+        "text": "Traits:\nFaster Sleep\nNight Vision\nSword Proficiency\nResistance to Wither Damage\nTeleport (Ability)"
       },
       "action": {
         "type": "minecraft:run_command",

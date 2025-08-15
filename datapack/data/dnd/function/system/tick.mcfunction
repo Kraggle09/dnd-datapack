@@ -28,6 +28,10 @@ execute as @a[tag=extraDamageWhenLowHealth] run function dnd:system/tick/extrada
 execute as @a[tag=shifted] run scoreboard players add @s timeShifted 1
 execute as @a[tag=shifted] if score @s timeShifted matches 1200 run function dnd:system/unshift
 
+# TELEPORT TIME TRACKING
+execute as @a[tag=justTeleported] run scoreboard players add @s timeSinceTeleported 1
+execute as @a[tag=justTeleported] if score @s timeSinceTeleported matches 200 run function dnd:system/abilities/destroyteleportpearl
+
 # WILDHUNT SHIFTING
 execute if score Online PlayerCounter matches 1 at @a[tag=shifted,tag=wildhunt] as @e[tag=!wildhuntglowing,distance=..50] run function dnd:system/wildhuntglowing
 execute at @a[tag=shifted,tag=wildhunt] as @e[tag=wildhuntglowing,distance=51..] run function dnd:system/wildhuntglowingremove
@@ -39,6 +43,7 @@ execute if score Online PlayerCounter matches 2.. at @a[tag=shifted,tag=wildhunt
 # MISC
 execute as @a[tag=naturalArmor] run function dnd:system/applynaturalarmor
 execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
+execute as @a[tag=!freePearls] run clear @s ender_pearl[lore=["Species bonus"]]
 
 # ABILITY SCORES
 execute as @a run function dnd:system/tick/abilityscores
