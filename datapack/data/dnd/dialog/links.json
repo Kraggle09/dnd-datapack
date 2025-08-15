@@ -26,6 +26,13 @@
       }
     },
     {
+      "label": "Wiki",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/Kraggle09/dnd-datapack/wiki"
+      }
+    },
+    {
       "label": "Feedback Survey",
       "action": {
         "type": "minecraft:open_url",
