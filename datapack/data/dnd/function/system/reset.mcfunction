@@ -68,9 +68,9 @@ tag @s remove shortSpeedBoost
 tag @s remove longSpeedBoost
 
 # Damage bonuses
-execute as @s[tag=axeBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @s[tag=axeBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
 tag @s remove axeBonus
-execute as @s[tag=swordBonus] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @s[tag=swordBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
 tag @s remove swordBonus
 
 # Misc
