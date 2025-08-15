@@ -1,0 +1,7 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute as @s unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed

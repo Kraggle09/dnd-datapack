@@ -18,44 +18,11 @@ execute if score #time time matches 23500 run function dnd:system/sunrise
 execute store result score Online PlayerCounter if entity @a
 
 # WEAPON SPEED BONUSES
-execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_axe"}},tag=axeBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[tag=axeBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
-
-execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:stone_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:iron_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_sword"}},tag=swordBonus] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @a[tag=swordBonus] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
+execute as @a[tag=axeBonus] run function dnd:system/tick/axebonus
+execute as @a[tag=swordBonus] run function dnd:system/tick/swordbonus
 
 # EXTRA DAMAGE WHEN LOW HEALTH
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:1.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:2.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:3.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:4.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:5.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:6.0f}] run attribute @s minecraft:attack_damage modifier add dnd:extradamage 5 add_value
-
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:7.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:8.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:9.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:10.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:11.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:12.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:13.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:14.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:15.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:16.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:17.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:18.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:19.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
-execute as @a[tag=extraDamageWhenLowHealth] at @s if entity @s[nbt={Health:20.0f}] run attribute @s minecraft:attack_damage modifier remove dnd:extradamage
+execute as @a[tag=extraDamageWhenLowHealth] run function dnd:system/tick/extradamagewhenlowhealth
 
 # SHIFT TIME TRACKING
 execute as @a[tag=shifted] run scoreboard players add @s timeShifted 1
@@ -74,12 +41,7 @@ execute as @a[tag=naturalArmor] run function dnd:system/applynaturalarmor
 execute as @a[nbt={SleepTimer:50s},tag=fasterSleep] run time set 23460
 
 # ABILITY SCORES
-execute as @a unless score @s abilitySTR matches -2147483648..2147483647 run scoreboard players set @s abilitySTR 10
-execute as @a unless score @s abilityDEX matches -2147483648..2147483647 run scoreboard players set @s abilityDEX 10
-execute as @a unless score @s abilityCON matches -2147483648..2147483647 run scoreboard players set @s abilityCON 10
-execute as @a unless score @s abilityINT matches -2147483648..2147483647 run scoreboard players set @s abilityINT 10
-execute as @a unless score @s abilityWIS matches -2147483648..2147483647 run scoreboard players set @s abilityWIS 10
-execute as @a unless score @s abilityCHA matches -2147483648..2147483647 run scoreboard players set @s abilityCHA 10
+execute as @a run function dnd:system/tick/abilityscores
 
 # HIDING IN FOLIAGE
 execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #minecraft:stealth_foliage run effect give @s invisibility infinite 9 true
@@ -88,11 +50,7 @@ execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}]
 execute as @a if score @s crouchDetect matches -2147483648..2147483647 run scoreboard players reset @a crouchDetect
 
 # NATURAL ARMOR (WITHOUT ARMOR)
-execute as @a[tag=naturalArmorWithoutArmor] unless items entity @s armor.chest * unless items entity @s armor.legs * unless items entity @s armor.head * unless items entity @s armor.feet * run attribute @s armor modifier add dnd:naturalarmor 6.0 add_value
-execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.chest * run attribute @s armor modifier remove dnd:naturalarmor
-execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.legs * run attribute @s armor modifier remove dnd:naturalarmor
-execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.head * run attribute @s armor modifier remove dnd:naturalarmor
-execute as @a[tag=naturalArmorWithoutArmor] if items entity @s armor.feet * run attribute @s armor modifier remove dnd:naturalarmor
+execute as @a[tag=naturalArmorWithoutArmor] run function dnd:system/tick/naturalarmorwithoutarmor
 
 # SHORT SPEED BOOST
 scoreboard players add @a[tag=shortSpeedBoostActive] shortSpeedBoostCooldown 1
