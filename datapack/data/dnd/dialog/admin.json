@@ -21,8 +21,8 @@
     {
       "label": "Abilities",
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "dnd:admin_abilities"
+        "type": "minecraft:run_command",
+        "command": "function dnd:system/adjust_abilities/showpage"
       }
     }
   ]
