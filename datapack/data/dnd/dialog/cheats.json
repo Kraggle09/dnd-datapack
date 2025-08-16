@@ -11,17 +11,31 @@
   },
   "actions": [
     {
-      "label": "Jump Height",
+      "label": "Enable Jump Height",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:cheat/jumpheight"
+        "command": "/function dnd:cheat/enablejumpheight"
       }
     },
     {
-      "label": "Step Height",
+      "label": "Enable Step Height",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/function dnd:cheat/stepheight"
+        "command": "/function dnd:cheat/enablestepheight"
+      }
+    },
+    {
+      "label": "Disable Jump Height",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/disablejumpheight"
+      }
+    },
+    {
+      "label": "Disable Step Height",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/disablestepheight"
       }
     }
   ]
