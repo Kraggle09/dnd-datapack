@@ -60,3 +60,6 @@ execute as @a[tag=naturalArmorWithoutArmor] run function dnd:system/tick/natural
 # SHORT SPEED BOOST
 scoreboard players add @a[tag=shortSpeedBoostActive] shortSpeedBoostCooldown 1
 execute as @a if score @s shortSpeedBoostCooldown matches 600 run function dnd:system/abilities/resetshortspeedboost
+
+execute as @a[tag=chosenSpecies,tag=!shownConfirmation] run tellraw @s "Applying species..."
+execute as @a[tag=chosenSpecies,tag=!shownConfirmation] run tag @s add shownConfirmation
