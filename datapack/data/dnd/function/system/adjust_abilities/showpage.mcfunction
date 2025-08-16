@@ -10,7 +10,5 @@ data modify storage dnd storeAbilities.wis set value {wis:0}
 execute store result storage dnd storeAbilities.wis int 1 run scoreboard players get @s abilityWIS
 data modify storage dnd storeAbilities.cha set value {cha:0}
 execute store result storage dnd storeAbilities.cha int 1 run scoreboard players get @s abilityCHA
-say RUNNING FUNCTION
 function dnd:system/adjust_abilities/showpage2 with storage dnd storeAbilities
-say FUNCTION SUCCESS???
 data remove storage dnd storeAbilities
