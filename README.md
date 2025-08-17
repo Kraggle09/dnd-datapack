@@ -1,5 +1,5 @@
 # Minecraft DND: A datapack that brings elements of DND into Minecraft.
-
+![download count](https://img.shields.io/github/downloads/kraggle09/dnd-datapack/total)
 ### [Take the survey!](https://docs.google.com/forms/d/e/1FAIpQLSd1CkJqLjEqlWbUwzbJ8vKtapxPTE7FlVuAED58cmZwXEpsYA/viewform?usp=dialog)
 
 ## Features:
