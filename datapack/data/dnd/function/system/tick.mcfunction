@@ -63,3 +63,5 @@ execute as @a if score @s shortSpeedBoostCooldown matches 600 run function dnd:s
 
 execute as @a[tag=chosenSpecies,tag=!shownConfirmation] run tellraw @s "Applying species..."
 execute as @a[tag=chosenSpecies,tag=!shownConfirmation] run tag @s add shownConfirmation
+
+kill @e[name="Natural Armor"]
