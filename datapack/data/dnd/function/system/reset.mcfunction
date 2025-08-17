@@ -26,6 +26,7 @@ attribute @s armor modifier remove dnd:naturalarmor
 execute as @s[tag=nightVision] run effect clear @s night_vision
 execute as @s[tag=swimBoost] run effect clear @s dolphins_grace
 execute as @s[tag=waterBreathing] run effect clear @s water_breathing
+execute as @s[tag=longSpeedBoost] run effect clear @s speed
 
 # Ability Scores
 scoreboard players set @s abilitySTR 10
