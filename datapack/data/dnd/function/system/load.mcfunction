@@ -7,6 +7,7 @@ schedule function dnd:system/abilityscorebenefits1 20t
 scoreboard objectives add jumpCheat dummy
 scoreboard objectives add time dummy
 scoreboard objectives add stepCheat dummy
+scoreboard objectives add lightWeaknessCheat dummy
 scoreboard objectives add timeShifted dummy
 scoreboard objectives add shiftsToday dummy
 scoreboard objectives add healingHandsToday dummy
