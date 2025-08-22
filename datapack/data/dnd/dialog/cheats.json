@@ -37,6 +37,20 @@
         "type": "minecraft:run_command",
         "command": "/function dnd:cheat/disablestepheight"
       }
+    },
+    {
+      "label": "Enable Light Weakness",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/enablelightweakness"
+      }
+    },
+    {
+      "label": "Disable Light Weakness",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/disablelightweakness"
+      }
     }
   ]
 }
