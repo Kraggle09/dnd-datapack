@@ -6,4 +6,5 @@ attribute @s minecraft:step_height base set 0.6443
 scoreboard players add @s abilityWIS 2
 scoreboard players add @s abilitySTR 1
 tag @s add tempinvis
+tag @s add higherTemptRange
 tag @s add chosenSpecies
