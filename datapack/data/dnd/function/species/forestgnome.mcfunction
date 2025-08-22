@@ -6,4 +6,5 @@ attribute @s minecraft:step_height base set 0.5454
 tag @s add shortJumpHeight
 tag @s add shortStepHeight
 scoreboard players add @s abilityDEX 1
+tag @s add higherTemptRange
 tag @s add chosenSpecies

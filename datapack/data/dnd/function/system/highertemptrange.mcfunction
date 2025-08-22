@@ -1,0 +1,3 @@
+execute if score Online PlayerCounter matches 1 if entity @r[tag=higherTemptRange] run execute as @e[type=#dnd:temptable_animals] run attribute @s tempt_range modifier add dnd:highertemptrange 10 add_value
+execute if score Online PlayerCounter matches 2.. if entity @r[tag=higherTemptRange] run execute as @e[type=#dnd:temptable_animals] run attribute @s tempt_range modifier remove dnd:highertemptrange
+schedule function dnd:system/highertemptrange 2s

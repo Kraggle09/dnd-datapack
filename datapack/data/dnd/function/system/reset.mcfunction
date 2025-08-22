@@ -36,6 +36,8 @@ scoreboard players set @s abilityINT 10
 scoreboard players set @s abilityWIS 10
 scoreboard players set @s abilityCHA 10
 
+execute if entity @s[tag=higherTemptRange] run execute as @e[type=#dnd:temptable_animals] run attribute @s tempt_range modifier remove dnd:highertemptrange
+
 # Tags
 tag @s remove nightVision
 tag @s remove antiPoison
@@ -67,6 +69,7 @@ tag @s remove tempinvis
 tag @s remove naturalArmorWithoutArmor
 tag @s remove shortSpeedBoost
 tag @s remove longSpeedBoost
+tag @s remove higherTemptRange
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
