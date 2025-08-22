@@ -40,9 +40,7 @@ execute if entity @s[tag=higherTemptRange] run execute as @e[type=#dnd:temptable
 
 # Damage bonuses
 execute as @s[tag=axeBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
-tag @s remove axeBonus
 execute as @s[tag=swordBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
-tag @s remove swordBonus
 
 # Misc
 clear @s ender_pearl[lore=["Species bonus"]]
@@ -81,6 +79,8 @@ tag @s remove naturalArmorWithoutArmor
 tag @s remove shortSpeedBoost
 tag @s remove longSpeedBoost
 tag @s remove higherTemptRange
+tag @s remove axeBonus
+tag @s remove swordBonus
 
 # chosenSpecies
 tag @s remove chosenSpecies
