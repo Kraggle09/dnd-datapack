@@ -9,44 +9,45 @@
       "dialog": "dnd:main"
     }
   },
+  "columns": 3,
   "actions": [
     {
-      "label": "Enable Jump Height",
+      "label": "Enable Jump Height Cheat",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:cheat/enablejumpheight"
       }
     },
     {
-      "label": "Enable Step Height",
+      "label": "Enable Step Height Cheat",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:cheat/enablestepheight"
       }
     },
     {
-      "label": "Disable Jump Height",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "/function dnd:cheat/disablejumpheight"
-      }
-    },
-    {
-      "label": "Disable Step Height",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "/function dnd:cheat/disablestepheight"
-      }
-    },
-    {
-      "label": "Enable Light Weakness",
+      "label": "Enable Light Weakness Cheat",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:cheat/enablelightweakness"
       }
     },
     {
-      "label": "Disable Light Weakness",
+      "label": "Disable Jump Height Cheat",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/disablejumpheight"
+      }
+    },
+    {
+      "label": "Disable Step Height Cheat",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/function dnd:cheat/disablestepheight"
+      }
+    },
+    {
+      "label": "Disable Light Weakness Cheat",
       "action": {
         "type": "minecraft:run_command",
         "command": "/function dnd:cheat/disablelightweakness"
