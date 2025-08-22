@@ -38,6 +38,17 @@ scoreboard players set @s abilityCHA 10
 
 execute if entity @s[tag=higherTemptRange] run execute as @e[type=#dnd:temptable_animals] run attribute @s tempt_range modifier remove dnd:highertemptrange
 
+# Damage bonuses
+execute as @s[tag=axeBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
+tag @s remove axeBonus
+execute as @s[tag=swordBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
+tag @s remove swordBonus
+
+# Misc
+clear @s ender_pearl[lore=["Species bonus"]]
+clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
+scoreboard players reset @s timeShifted
+
 # Tags
 tag @s remove nightVision
 tag @s remove antiPoison
@@ -70,17 +81,6 @@ tag @s remove naturalArmorWithoutArmor
 tag @s remove shortSpeedBoost
 tag @s remove longSpeedBoost
 tag @s remove higherTemptRange
-
-# Damage bonuses
-execute as @s[tag=axeBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
-tag @s remove axeBonus
-execute as @s[tag=swordBonus] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
-tag @s remove swordBonus
-
-# Misc
-clear @s ender_pearl[lore=["Species bonus"]]
-clear @s minecraft:light_gray_stained_glass_pane[minecraft:enchantments={binding_curse:1},minecraft:item_name="Natural Armor"]
-scoreboard players reset @s timeShifted
 
 # chosenSpecies
 tag @s remove chosenSpecies
