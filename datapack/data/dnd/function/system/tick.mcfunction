@@ -49,9 +49,9 @@ execute as @a[tag=!freePearls] run clear @s ender_pearl[lore=["Species bonus"]]
 execute as @a run function dnd:system/tick/abilityscores
 
 # HIDING IN FOLIAGE
-execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #minecraft:stealth_foliage run effect give @s invisibility infinite 9 true
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
-execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #minecraft:stealth_foliage run effect clear @s invisibility
+execute as @a[scores={crouchDetect=1},tag=hideInFoliage] at @s if block ~ ~1 ~ #dnd:stealth_foliage run effect give @s invisibility infinite 9 true
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless block ~ ~1 ~ #dnd:stealth_foliage run effect clear @s invisibility
+execute as @a[nbt={active_effects:[{id:"minecraft:invisibility",amplifier:9b}]}] at @s unless entity @s[scores={crouchDetect=1}] if block ~ ~1 ~ #dnd:stealth_foliage run effect clear @s invisibility
 execute as @a if score @s crouchDetect matches -2147483648..2147483647 run scoreboard players reset @a crouchDetect
 
 # NATURAL ARMOR (WITHOUT ARMOR)
