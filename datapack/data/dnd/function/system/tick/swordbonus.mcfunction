@@ -1,7 +1,2 @@
-execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
-execute as @s unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
+execute if items entity @s weapon.mainhand #dnd:swords run attribute @s minecraft:attack_speed modifier add dnd:extraspeed 2.0 add_value
+execute unless items entity @s weapon.mainhand #dnd:swords run attribute @s minecraft:attack_speed modifier remove dnd:extraspeed
