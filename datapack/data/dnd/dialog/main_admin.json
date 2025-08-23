@@ -14,6 +14,13 @@
       }
     },
     {
+      "label": "Ability Scores",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function dnd:system/adjust_abilities/showpageuser"
+      }
+    },
+    {
       "label": "Cheats",
       "action": {
         "type": "minecraft:show_dialog",
