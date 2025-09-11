@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "Gotta Go Fast",
+    "description": "Use your Speed Boost ability as an Orc or Tabaxi"
+  },
+  "parent": "dnd:species_beginning",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

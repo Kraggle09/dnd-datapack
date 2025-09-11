@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "Shifting Time",
+    "description": "Use your Shift ability as a Shifter"
+  },
+  "parent": "dnd:species_beginning",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

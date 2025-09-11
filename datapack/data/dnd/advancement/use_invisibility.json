@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "You Can't See Me",
+    "description": "Use your Invisibility ability as a Firbolg"
+  },
+  "parent": "dnd:species_beginning",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
