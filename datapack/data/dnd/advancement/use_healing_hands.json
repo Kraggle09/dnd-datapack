@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:barrier"
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "dnd:health_boost"
+      }
     },
     "title": "Feel My Hands",
     "description": "Use your Healing Hands ability as an Aasimar"
