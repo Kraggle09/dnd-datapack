@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "Species Beginning",
+    "description": "Choose a species"
+  },
+  "parent": "dnd:root",
+  "criteria": {
+    "chosenSpecies": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"chosenSpecies\"]}"
+        }
+      }
+    }
+  }
+}
