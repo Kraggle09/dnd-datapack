@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:barrier"
+      "id": "minecraft:barrier",
+      "components": {
+        "minecraft:item_model": "dnd:speed_boost"
+      }
     },
     "title": "Gotta Go Fast",
     "description": "Use your Speed Boost ability as an Orc or Tabaxi"
