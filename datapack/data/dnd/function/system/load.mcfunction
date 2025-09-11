@@ -26,5 +26,4 @@ scoreboard objectives add abilityWIS dummy
 scoreboard objectives add abilityCHA dummy
 scoreboard objectives add crouchDetect minecraft.custom:minecraft.sneak_time "crouchDetect"
 execute as @a[tag=speedOf83] run attribute @s movement_speed base set 0.083
-advancement grant @a only dnd:root custom
 tellraw @a "Minecraft DND Successfully Reloaded"
