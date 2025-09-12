@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:barrier"
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "dnd:logo_128"
+      }
     },
     "title": "Minecraft DND",
     "description": "The beginning of your adventures",
