@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "dnd:logo_128"
+      }
+    },
+    "title": "Minecraft DND",
+    "description": "The beginning of your adventures",
+    "background": "minecraft:block/red_terracotta"
+  },
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

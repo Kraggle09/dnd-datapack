@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_grass"
+    },
+    "title": "Hiding Among the Plants",
+    "description": "Hide in some tall plants as a Wood Elf"
+  },
+  "parent": "dnd:species_beginning",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
