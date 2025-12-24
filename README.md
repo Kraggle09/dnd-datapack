@@ -11,6 +11,7 @@
 ## How to install:
 - Download the latest build from the [releases page](https://github.com/Kraggle09/dnd-datapack/releases) (stable or beta)
 - Add to your world using [this guide](https://minecraft.wiki/w/Tutorial:Installing_a_data_pack)
+- Make sure to enable cheats for the world, as this datapack requires cheats
 
 ## How to use:
 - Check out the [wiki](https://github.com/Kraggle09/dnd-datapack/wiki) for how to use.
@@ -30,7 +31,7 @@ I have added most of the species I have planned, but I'm open to suggestions. Ch
 The lite version was a smaller version of the pack which removed several useless species. Now, that's not neccessary, since the species in the pack have more features, and the menu makes species selection easier.  
 
 **What version of Minecraft is this for?**  
-The latest version of Java edition. (although it may work for older versions)  
+Java Edition 1.21.9/10  
 
 **Can you port this to Bedrock/Older version of Java?**  
 Ports are not planned at this time. For more information, see [this page](https://github.com/Kraggle09/dnd-datapack/wiki/Ports).
